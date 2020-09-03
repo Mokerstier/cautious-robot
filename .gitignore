@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+eray-test.json
 # production
 /build
 

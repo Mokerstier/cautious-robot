@@ -3,12 +3,20 @@
         {
             "topic": "app",
             "value": 81,
-            "r": 10
+            "r": 10,
+            "text": "Hier wat is dit nu?"
         },
         {
             "topic": "account",
             "value": 60,
-            "r": 10
+            "r": 10,
+            "text": "Hier wat is dit nu?"
+        },
+        {
+            "topic": "account",
+            "value": 76,
+            "r": 10,
+            "text": "Hier wat is dit nu?"
         },
         {
             "topic": "delivery",
@@ -22,7 +30,7 @@
         },
         {
             "topic": "app",
-            "value": 85,
+            "value": 66,
             "r": 10
         },
         {
@@ -46,7 +54,9 @@
         ],
             "cluster": true,
             "r": 20,
-            "topic": "app"
+            "length": 5,
+            "topic": "app",
+            "text": " berichten over "
         },
         {
             "topic": "app",
@@ -60,7 +70,7 @@
         },
         {
             "topic": "delivery",
-            "value": 20,
+            "value": 46,
             "r": 10
         },
         {
@@ -70,7 +80,7 @@
         },
         {
             "topic": "app",
-            "value": 85,
+            "value": 45,
             "r": 10
         },
         {

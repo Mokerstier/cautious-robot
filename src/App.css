@@ -27,12 +27,35 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
+.tooltip{
+  width: 50px;
+  height: 50px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  #rotate-circle {
+    animation: rotate infinite 20s alternate linear;
+  }
+  #rotate-circle:hover{
+    animation-play-state: paused;
+  }
+}
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+
+@keyframes transcolor {
+  from {
+    background: radial-gradient(#080808, #1f9c7d);
+  }
+  
+  to {
+    background: radial-gradient(#f9fde4, #91e5b4);
   }
 }

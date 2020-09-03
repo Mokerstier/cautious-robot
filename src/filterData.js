@@ -2,7 +2,7 @@
 
 // const data = commentsJSON.data;
 
-class Cluster {
+class ClusterBig {
   constructor(name, number, child) {
     this.cluster = true;
     this.topic = name;
@@ -38,7 +38,7 @@ export async function getClusters(data) {
       let cluster;
       if (clusterTopics.includes(data.topic) && clusters.length === 0) {
 
-        cluster = new Cluster(data.topic, data.value, data);
+        cluster = new ClusterBig(data.topic, data.value, data);
         clusters.push(cluster);
 
       } else if (clusters.length > 0) {

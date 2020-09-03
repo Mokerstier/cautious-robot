@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+
 import * as d3 from "d3";
 function color(d) {
-    const orange = "rgb(239, 206, 45)";
+    const orange = "rgb(239, 166, 70)";
     const red = "rgb(203, 47, 13)";
     const green = "rgb(71, 246, 138)";
     const yellow = "rgb(202, 233, 58)";
@@ -39,19 +40,94 @@ class GapChart extends Component {
         .append("svg")
         .attr("width", w)
         .attr("height", h)
-        .style("background-color", "darkblue")
-    
-      const node = accessToRef
+        .style("background-color", "#080808");
+        
+        // tooltip not yet working !?
+        const tooltip = d3.select(this.myRef.current)
+        .append("div")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .style("background-color", "pink")
+        .attr("class", "tooltip")
+        .text("a simple tooltip");
+        
+        // Color of the circle-shape background 
+        // gradient
+        const stopColor1 ="#1f9c7d"
+        const stopColor2 ="#91e5b4"
+        const stopColor3 ="#91e5b4"
+        const stopColor4 ="#f9fde4"
+        const stopColor5 ="#0000" // transparent
+
+        const circleNode = accessToRef
+        .append("circle")
+        .attr("transform", "translate(200, 200)") // center the circleNode
+        .attr("fill", "url(#gradient")
+        .attr( "r", 50)
+        
+        const linearGradient = accessToRef
+        .append("radialGradient")
+        .attr("id", "gradient")
+        .attr("x1", "0")
+        .attr("x2", "50%")
+        .attr("y1", "70%")
+        .attr("y2", "100%")
+
+        const color1 = linearGradient
+        .append("stop")
+        .attr("stop-color", stopColor1)
+        .attr("offset", "0%")
+
+        const color2 = linearGradient
+        .append("stop")
+        .attr("stop-color", stopColor2)
+        .attr("offset", "50%")
+
+        const color3 = linearGradient
+        .append("stop")
+        .attr("stop-color",stopColor3)
+        .attr("offset", "51%")
+
+        const color4 = linearGradient
+        .append("stop")
+        .attr("stop-color", stopColor4)
+        .attr("stop-opacity", .6)
+        .attr("offset", "40%")
+
+        const color5 = linearGradient
+        .append("stop")
+        .attr("stop-color", stopColor5)
+        .attr("offset", "100%")
+      
+        const node = accessToRef
         .append("g")
         .attr("transform", "translate(200, 200)") // center the circle-group
+        .append("g")
+        .attr("id", "rotate-circle")
         .selectAll("circle")
         .data(nodes)
         .enter()
         .append("circle")
         .attr("r", 4)
-        .attr("fill", (d) => color(d));
-        
-  
+        .attr("fill", (d) => color(d))
+        .on("mouseover", function(e, d) {	
+          console.log(e)	
+          tooltip.transition()		
+              .duration(200)		
+              .style("opacity", .9);		
+          tooltip.html(d+ "<br/>"  + "more" )	
+          .style("visibility", "visible")
+          .style("background-color", "white")
+          .style("left", (e.clientX) + "px")
+          .style("top", (e.clientY - 28) + "px");
+          })					
+      .on("mouseout", function(d) {		
+          tooltip.transition()		
+              .duration(500)		
+              .style("opacity", 0);	
+      })
+
       const simulation = d3.forceSimulation(nodes)
       .force(
         "collide",
