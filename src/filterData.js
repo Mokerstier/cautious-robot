@@ -6,9 +6,10 @@ class ClusterBig {
   constructor(name, number, child) {
     this.cluster = true;
     this.topic = name;
-    this.avarage = [number];
+    this.value = [number];
     this.r = 20;
     this.children = [child];
+    
   }
 }
 
@@ -29,36 +30,59 @@ export async function getClusters(data) {
     if (value >= 5) clusterTopics.push(key);
   }
   console.log(clusterTopics);
-
   let clusters = [];
+  let singlets = [];
 
+data.map((item)=>{
+    
+    if(data.cluster){
+      console.log("hello")
+      clusters = clusters.map(cluster =>{
+        if(cluster.topic === item.topic)  cluster.children.push(data.children)
+      }) 
+    }
+    if (!data.cluster) return 
+  })
+  
   try {
+
     data.map((data) => {
-      console.log(clusters);
       let cluster;
-      if (clusterTopics.includes(data.topic) && clusters.length === 0) {
+      if(data.cluster){
+
+        clusters.forEach((cluster) => {
+          if (Object.values(cluster).includes(data.topic)){
+            console.log(cluster)
+            cluster.children.concat(data.children)
+            return
+          }
+        })
+        return
+      }
+      
+      else if (clusterTopics.includes(data.topic) && clusters.length === 0) {
 
         cluster = new ClusterBig(data.topic, data.value, data);
         clusters.push(cluster);
+        console.log(clusters);
 
       } else if (clusters.length > 0) {
         clusters.forEach((cluster) => {
           if (Object.values(cluster).includes(data.topic)) {
-            
+            console.log(cluster)
             cluster.children.push(data);
-            cluster.avarage.push(data.value);
+            cluster.value.push(data.value);
+            cluster.length = cluster.children.length
             console.log("pushed child en value");
-            return cluster;
           }
         });
       }
-      console.log(clusters);
-      return clusters;
-    });
+      return clusters[0];
+    })
   }catch(e){console.log(e)}
   finally{
-      console.log("clusters done")
-      return
+      console.log(clusters)
+      return clusters[0]
   }
 }
 

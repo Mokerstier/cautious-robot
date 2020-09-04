@@ -28,14 +28,17 @@
   color: #61dafb;
 }
 .tooltip{
-  width: 50px;
-  height: 50px;
+  background-color: #146652;
+  padding: .5rem;
+  font-size: 1em;
+  /* width: 50px;
+  height: 50px; */
 }
 @media (prefers-reduced-motion: no-preference) {
   #rotate-circle {
     animation: rotate infinite 20s alternate linear;
   }
-  #rotate-circle:hover{
+  div:hover > svg  #rotate-circle{
     animation-play-state: paused;
   }
 }
@@ -52,7 +55,7 @@
 
 @keyframes transcolor {
   from {
-    background: radial-gradient(#080808, #1f9c7d);
+    background: radial-gradient(#080808, #146652);
   }
   
   to {

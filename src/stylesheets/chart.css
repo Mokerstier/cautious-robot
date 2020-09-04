@@ -1,0 +1,40 @@
+svg {
+  background-color: #282c34;
+}
+
+.tooltip {
+  background-color: #146652;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1em;
+}
+.tooltip:after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #146652 transparent transparent transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #rotate-circle {
+    animation: rotate infinite 20s alternate linear;
+  }
+
+  div:hover > svg #rotate-circle {
+    animation-play-state: paused;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=chart.css.map */

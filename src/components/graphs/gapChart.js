@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-
 import * as d3 from "d3";
+import BackGroundChart from "./backgroundChart";
+
 function color(d) {
     const orange = "rgb(239, 166, 70)";
     const red = "rgb(203, 47, 13)";
@@ -17,7 +18,14 @@ function color(d) {
     if (number >= 60) return yellow;
     if (number >= 40) return orange;
     if (number >= 20) return red;
-  }
+}
+
+function tooltipText(d){
+  const text = d.text
+  const number = d.length ? d.length : ""
+  const topic = d.topic
+ return number + "<br/>" + text+ "<br/>"  + topic 
+}
 
 class GapChart extends Component {
     constructor(props) {
@@ -29,8 +37,9 @@ class GapChart extends Component {
       const { data, w, h } = this.props;
       const scale = 1.7;
     //   const center = [w / 2, h / 2];
-      const rescale = isNaN(data[0].x);
       console.log(data)
+      const rescale = isNaN(data[0].x);
+      
       const nodes = data.concat(
           d3.range(0).map(function() { return {value: 400,type: "a"}; }),
       d3.range(0).map(function() { return {value: 400,type: "b"}; }));
@@ -40,19 +49,18 @@ class GapChart extends Component {
         .append("svg")
         .attr("width", w)
         .attr("height", h)
-        .style("background-color", "#080808");
+        .style("position", "relative")
         
-        // tooltip not yet working !?
+        // tooltip 
         const tooltip = d3.select(this.myRef.current)
         .append("div")
         .style("position", "absolute")
         .style("z-index", "10")
         .style("visibility", "hidden")
-        .style("background-color", "pink")
         .attr("class", "tooltip")
         .text("a simple tooltip");
         
-        // Color of the circle-shape background 
+        //Color of the circle-shape background 
         // gradient
         const stopColor1 ="#1f9c7d"
         const stopColor2 ="#91e5b4"
@@ -105,27 +113,27 @@ class GapChart extends Component {
         .attr("transform", "translate(200, 200)") // center the circle-group
         .append("g")
         .attr("id", "rotate-circle")
-        .selectAll("circle")
-        .data(nodes)
+        .selectAll("circle") // circles
+        .data(nodes) // adding data
         .enter()
-        .append("circle")
+        .append("circle") 
         .attr("r", 4)
         .attr("fill", (d) => color(d))
         .on("mouseover", function(e, d) {	
-          console.log(e)	
           tooltip.transition()		
               .duration(200)		
               .style("opacity", .9);		
-          tooltip.html(d+ "<br/>"  + "more" )	
+          tooltip.html(tooltipText(d))	
           .style("visibility", "visible")
-          .style("background-color", "white")
-          .style("left", (e.clientX) + "px")
-          .style("top", (e.clientY - 28) + "px");
+          .style("left", (e.clientX - (tooltip._groups[0][0].clientWidth / 2) ) + "px")
+          .style("top", (e.clientY + window.scrollY ) - (tooltip._groups[0][0].clientHeight + 10) + "px")
+          .style("z-index", 10);
           })					
       .on("mouseout", function(d) {		
           tooltip.transition()		
               .duration(500)		
-              .style("opacity", 0);	
+              .style("opacity", 0)
+              .style("z-index", -1)
       })
 
       const simulation = d3.forceSimulation(nodes)
@@ -160,7 +168,7 @@ class GapChart extends Component {
     }
   
     render() {
-      return <div ref={this.myRef}></div>;
+      return <div className="chart" ref={this.myRef}></div>;
     }
   }
   

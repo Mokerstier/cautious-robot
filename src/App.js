@@ -1,24 +1,29 @@
 import React from 'react'
-import './App.css'
-import RayChart from './eRayChart'
-import GapChart from './gapChart'
-import TestChart from './testChart'
+import './stylesheets/base.css'
+import RayChart from './components/graphs/eRayChart'
+import GapChartFiltered from './components/graphs/gapChartFiltered'
+import GapChart from './components/graphs/gapChart'
+import TestChart from './components/graphs/testChart'
 import erayJSON from './data/eray-test.json'
 import fakeJSON from './data/data.json'
+import testJSON from './data/test.json'
 import { getClusters, getEntries } from "./filterData"
 
 const fakeData = fakeJSON.data;
 const erayData = erayJSON.data;
+const testData = testJSON.data
 
 const App = () =>{
   return (
     <div className="App">
       <header className="App-header">
         {/* <div><RayChart data={rawData} w={400} h={400}/></div>  */}
-        <div><GapChart data={fakeData} w={400} h={400}/></div>
-       
-       <div><TestChart data ={erayData}w={400} h={400}/></div>
+        <GapChartFiltered data={testData} w={400} h={400}/>
       </header>
+      <main className="graph_container">
+        <GapChart data={fakeData} w={400} h={400}/>
+        <TestChart data ={erayData}w={400} h={400}/>
+      </main>
     </div>
   );
 }

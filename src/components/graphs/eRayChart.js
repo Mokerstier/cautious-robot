@@ -48,7 +48,7 @@ class RayChart extends Component {
       .data(data)
       .enter()
       .append("circle")
-      .attr("r", 4)
+      .attr("r", 2)
       .attr("fill", (d) => color(d));
 
     const simulation = d3

@@ -1,0 +1,72 @@
+svg {
+  background-color: #282c34;
+}
+
+.tooltip {
+  background-color: #146652;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1em;
+}
+.tooltip:after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #146652 transparent transparent transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #rotate-circle {
+    animation: rotate infinite 20s alternate linear;
+  }
+
+  div:hover > svg #rotate-circle {
+    animation-play-state: paused;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.graph_container {
+  display: flex;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*# sourceMappingURL=base.css.map */

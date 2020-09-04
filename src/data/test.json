@@ -1,0 +1,50 @@
+{
+    "data": [
+        {
+            "topic": "app",
+            "value": 81,
+            "r": 10,
+            "text": "Hier wat is dit nu?"
+        },
+        {
+            "topic": "account",
+            "value": 60,
+            "r": 10,
+            "text": "Hier wat is dit nu?"
+        },
+        {
+            "topic": "account",
+            "value": 76,
+            "r": 10,
+            "text": "Hier wat is dit nu?"
+        },
+        {
+            "topic": "delivery",
+            "value": 20,
+            "r": 10,
+            "text": "Slechte bezorging"
+        },
+        {
+            "topic": "app",
+            "value": 80,
+            "r": 10,
+            "text": "Zeer tevreden"
+        },
+        {
+            "topic": "app",
+            "value": 66,
+            "r": 10,
+            "text": "blabla"
+        },
+        {
+            "topic": "app",
+            "value": 87,
+            "r": 10
+        },
+        {
+            "topic": "app",
+            "value": 86,
+            "r": 10
+        }
+    ]
+}
