@@ -27,7 +27,6 @@ export async function filterData(dataJSON) {
 
   try {
     dataJSON.data.map((item) => {
-        console.log(item)
         addToCluster(item);
 
     });
@@ -44,7 +43,6 @@ export async function filterData(dataJSON) {
 function addToCluster(item){
     topicClusters.forEach((cluster) => {
     if (cluster.topic === item.topic) {
-        console.log("clustermatch: " + cluster.topic);
         cluster.children.push(item);
         cluster.information.push(item.information);
         cluster.relevancy.push(item.relevancy);

@@ -1,6 +1,6 @@
 import React from 'react'
 import './stylesheets/base.css'
-import RayChart from './components/graphs/eRayChart'
+import ErayChart from './components/graphs/vodafoneChart'
 import GapChartFiltered from './components/graphs/gapChartFiltered'
 import GapChart from './components/graphs/gapChart'
 import TestChart from './components/graphs/testChart'
@@ -13,18 +13,19 @@ const fakeData = fakeJSON.data;
 const erayData = erayJSON.data;
 const testData = testJSON.data
 
-filterData(erayJSON)
+// filterData(erayJSON)
 
 const App = () =>{
   return (
     <div className="App">
       <header className="App-header">
-        {/* <div><RayChart data={rawData} w={400} h={400}/></div>  */}
-        <GapChartFiltered data={testData} w={400} h={400}/>
+        {/* <div><RayChart data={erayData} w={400} h={400}/></div>  */}
+        <ErayChart data ={erayJSON} />
       </header>
       <main className="graph_container">
         <GapChart data={fakeData} w={400} h={400}/>
         <TestChart data ={erayData}w={400} h={400}/>
+        {/* <GapChartFiltered data={testData} w={400} h={400}/> */}
       </main>
     </div>
   );
