@@ -37,7 +37,6 @@ class GapChart extends Component {
       const { data, w, h } = this.props;
       const scale = 1.7;
     //   const center = [w / 2, h / 2];
-      console.log(data)
       const rescale = isNaN(data[0].x);
       
       const nodes = data.concat(

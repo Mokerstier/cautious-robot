@@ -1,5 +1,11 @@
 svg {
   background-color: #282c34;
+  width: 400px;
+  height: 400px;
+}
+
+.nodeGroup {
+  transform: translate(200px, 200px);
 }
 
 .tooltip {
@@ -20,11 +26,11 @@ svg {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  #rotate-circle {
+  .nodeGroup {
     animation: rotate infinite 20s alternate linear;
   }
 
-  div:hover > svg #rotate-circle {
+  div:hover > svg .nodeGroup {
     animation-play-state: paused;
   }
 }

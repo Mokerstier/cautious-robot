@@ -19,6 +19,35 @@
             "text": "Hier wat is dit nu?"
         },
         {
+            "topic": "UI",
+            "value": 76,
+            "r": 10,
+            "text": "kan er niks mee worden"
+        },
+        {
+            "topic": "delivery",
+            "value": 20,
+            "r": 10,
+            "text": "Slechte bezorging"
+        },
+        {
+            "topic": "delivery",
+            "value": 20,
+            "r": 10,
+            "text": "Slechte bezorging"
+        },
+        {
+            "topic": "delivery",
+            "value": 20,
+            "r": 10,
+            "text": "Slechte bezorging"
+        },
+        {
+            "topic": "delivery",
+            "value": 20,
+            "r": 10,
+            "text": "Slechte bezorging"
+        },        {
             "topic": "delivery",
             "value": 20,
             "r": 10,
@@ -39,12 +68,14 @@
         {
             "topic": "app",
             "value": 87,
-            "r": 10
+            "r": 10,
+            "text": "Zeer tevreden"
         },
         {
             "topic": "app",
             "value": 86,
-            "r": 10
+            "r": 10,
+            "text": "Zeer tevreden"
         }
     ]
 }

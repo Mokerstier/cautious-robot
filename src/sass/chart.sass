@@ -1,11 +1,15 @@
 svg
     background-color: #282c34
-
+    width: 400px
+    height: 400px
+.nodeGroup
+  transform: translate(200px, 200px)
 .tooltip
   background-color: #146652
   color: white
   padding: .5rem
   font-size: 1em
+
   &:after
     content: " "
     position: absolute
@@ -17,15 +21,15 @@ svg
     border-color: #146652 transparent transparent transparent
 
 @media (prefers-reduced-motion: no-preference) 
-  #rotate-circle 
+  .nodeGroup 
     animation: rotate infinite 20s alternate linear
   
-  div:hover > svg  #rotate-circle
+  div:hover > svg  .nodeGroup
     animation-play-state: paused
 
 @keyframes rotate 
   from 
-    transform: rotate(0deg)  
+    transform: rotate(0deg)
   to 
     transform: rotate(360deg)
   

@@ -29,7 +29,7 @@ class TestChart extends Component {
       const scale = 1.7;
     //   const center = [w / 2, h / 2];
       const rescale = isNaN(data[0].x);
-      console.log(data)
+      // console.log(data)
       const nodes = data.concat(
             d3.range(0).map(function() { return {value: 400,type: "a"}; }),
             d3.range(0).map(function() { return {value: 400,type: "b"}; }));

@@ -7,11 +7,13 @@ import TestChart from './components/graphs/testChart'
 import erayJSON from './data/eray-test.json'
 import fakeJSON from './data/data.json'
 import testJSON from './data/test.json'
-import { getClusters, getEntries } from "./filterData"
+import { filterData, getEntries } from "././controllers/dataFilter"
 
 const fakeData = fakeJSON.data;
 const erayData = erayJSON.data;
 const testData = testJSON.data
+
+filterData(erayJSON)
 
 const App = () =>{
   return (

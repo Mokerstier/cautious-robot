@@ -9,29 +9,27 @@ class ClusterBig {
     this.value = [number];
     this.r = 20;
     this.children = [child];
-    
   }
 }
 
 export async function getClusters(data) {
   // get all topics ✔
-
+  console.log(data)
   const topicOcc = data.reduce(
     (acc, o) => ((acc[o.topic] = (acc[o.topic] || 0) + 1), acc),
     {}
   );
-  
-  // get all  ✔
   // filter data on multiple occurences and create a big node
-  
-  const clusterTopics = [];
-  
+  // stores topics that occure more then 5 times
+  const clusterTopics = []; 
   for (const [key, value] of Object.entries(topicOcc)) {
     if (value >= 5) clusterTopics.push(key);
   }
   console.log(clusterTopics);
+
   let clusters = [];
   let singlets = [];
+  let filteredData = [];
 
 data.map((item)=>{
     
@@ -45,11 +43,9 @@ data.map((item)=>{
   })
   
   try {
-
-    data.map((data) => {
+    const filteredData = data.map((data) => {
       let cluster;
       if(data.cluster){
-
         clusters.forEach((cluster) => {
           if (Object.values(cluster).includes(data.topic)){
             console.log(cluster)
@@ -82,7 +78,7 @@ data.map((item)=>{
   }catch(e){console.log(e)}
   finally{
       console.log(clusters)
-      return clusters[0]
+      return clusters
   }
 }
 
