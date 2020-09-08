@@ -32,8 +32,7 @@ export async function getClusters(data) {
   // get all topics ✔
   console.log(data);
   const topicOcc = data.reduce(
-    (acc, o) => ((acc[o.topic] = (acc[o.topic] || 0) + 1), acc),
-    {}
+    (acc, o) => ((acc[o.topic] = (acc[o.topic] || 0) + 1), acc),{}
   );
   // filter data on multiple occurences and create a big node
   // stores topics that occure more then 5 times
@@ -54,7 +53,7 @@ export async function getClusters(data) {
   // -> Find cluster and add item
 
   try {
-    data.map((item) => {
+    data.forEach((item) => {
       if (!clusterTopics.includes(item.topic)) {
         singlets.push(item);
         console.log("added a singlet");

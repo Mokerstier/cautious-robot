@@ -1,14 +1,15 @@
 svg
     background-color: #282c34
-    width: 400px
-    height: 400px
+
 .nodeGroup
-  transform: translate(200px, 200px)
+  transform: rotate(45 60 60)
+
+
 .tooltip
   background-color: #146652
   color: white
   padding: .5rem
-  font-size: 1em
+  font-size: 1rem
 
   &:after
     content: " "
@@ -22,9 +23,9 @@ svg
 
 @media (prefers-reduced-motion: no-preference) 
   .nodeGroup 
-    animation: rotate infinite 20s alternate linear
+    // animation: rotate infinite 20s alternate linear
   
-  div:hover > svg  .nodeGroup
+  div:hover > svg  .nodeGroup:hover
     animation-play-state: paused
 
 @keyframes rotate 

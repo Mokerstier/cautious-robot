@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import { getClusters, getEntries } from "../../getClusters";
+import { getClusters } from "../../getClusters";
 
 function color(d) {
   const orange = "rgb(239, 166, 70)";
@@ -70,6 +70,7 @@ class GapChartFiltered extends Component {
     const stopColor5 = "#0000"; // transparent
 
     const circleNode = accessToRef
+    circleNode
       .append("circle")
       .attr("transform", "translate(200, 200)") // center the circleNode
       .attr("fill", "url(#gradient")
@@ -84,35 +85,40 @@ class GapChartFiltered extends Component {
       .attr("y2", "100%");
 
     const color1 = linearGradient
+    color1
       .append("stop")
       .attr("stop-color", stopColor1)
       .attr("offset", "0%");
 
     const color2 = linearGradient
+    color2
       .append("stop")
       .attr("stop-color", stopColor2)
       .attr("offset", "50%");
 
     const color3 = linearGradient
+    color3
       .append("stop")
       .attr("stop-color", stopColor3)
       .attr("offset", "51%");
 
     const color4 = linearGradient
+    color4
       .append("stop")
       .attr("stop-color", stopColor4)
       .attr("stop-opacity", 0.6)
       .attr("offset", "40%");
 
     const color5 = linearGradient
+    color5
       .append("stop")
       .attr("stop-color", stopColor5)
       .attr("offset", "100%");
   }
 
   renderTooltip() {
-    const { w, h } = this.props;
-    const dataset = this.state.dataset;
+    // const { w, h } = this.props;
+    // const dataset = this.state.dataset;
     
   //   const scale = 1.7;
   //   //   const center = [w / 2, h / 2];
@@ -239,13 +245,13 @@ class GapChartFiltered extends Component {
   // }
 
   renderNodes(){
-    const { w, h } = this.props;
+    // const { w, h } = this.props;
     const dataset = this.state.dataset;
-    const scale = .5;
-    const center = [w / 2, h / 2];
+    // const scale = .5;
+    // const center = [w / 2, h / 2];
     const tooltip = d3.select(this.tooltip.current)
-    const rescale = isNaN(dataset[0].x);
-    console.log(dataset)
+    // const rescale = isNaN(dataset[0].x);
+    // console.log(dataset)
     const nodes = dataset.concat(
       d3.range(0).map(function () {
         return { value: 400, type: "a" };
@@ -299,7 +305,7 @@ class GapChartFiltered extends Component {
       node
       .exit()
       .transition().duration(500)
-      .attr('r', 9)
+      // .attr('r', 9)
       .remove();
 
     const simulation = d3
