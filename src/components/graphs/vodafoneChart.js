@@ -318,6 +318,8 @@ class Vodafone extends Component {
 
     node
       .on("mouseover", function (e, d) {
+        console.log(e)
+        debugger
         tooltip.transition().duration(200).style("opacity", 0.9);
         tooltip
           .html(tooltipText(d))

@@ -263,8 +263,9 @@ class GapChartFiltered extends Component {
 
     const node = d3.select(this.group.current)
       .selectAll("circle") // circles
-      .data(nodes); // adding data
-      
+      .data(nodes) // adding data
+      .join("circle")
+
       // enter
       node
       .enter()
@@ -305,7 +306,7 @@ class GapChartFiltered extends Component {
       node
       .exit()
       .transition().duration(500)
-      // .attr('r', 9)
+      .attr('r', 9)
       .remove();
 
     const simulation = d3
@@ -355,7 +356,7 @@ class GapChartFiltered extends Component {
     return (
       <div>
         <div ref={this.tooltip}></div>
-        <svg className="chart" ref={this.chart}>
+        <svg className="chart" width={this.props.w} height={this.props.h} ref={this.chart}>
           
           <g transform="translate(200,200)">
             <g className="nodeGroup" ref={this.group}></g>
