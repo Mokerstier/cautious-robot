@@ -11,6 +11,10 @@ eray-test.json
 # production
 /build
 
+# ENV
+.env
+/src/data
+
 # misc
 .DS_Store
 .env.local
