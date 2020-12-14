@@ -1,6 +1,3 @@
-
-const https = require ('https');
-
 const axios = require('axios');
 require('dotenv').config();
 
@@ -11,12 +8,6 @@ const paths = {
     polarity: '/text/analytics/v3.0/sentiment',
     keyPhrase: '/text/analytics/v3.0/keyPhrases',
 }
-
-
-const switchCase = (cases: any, defaultValue = null) =>
-    (key: any) => cases[key] || cases.default || defaultValue;
-
-// const getPath = switchCase(paths);
 
 type Document = { documents: ({ id: string; language: string; text: string; } | null)[]; };
 
@@ -63,7 +54,7 @@ function get_sentiment(documents: Document, pathKey: string) {
             }
         };
     
-        let req = https.request(request_params, response_handler);
+        let req = axios.request(request_params, response_handler);
         req.write(body);
         req.end();
     }
