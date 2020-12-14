@@ -1,3 +1,4 @@
+const https = require('https');
 const axios = require('axios');
 require('dotenv').config();
 
@@ -9,10 +10,10 @@ const paths = {
     keyPhrase: '/text/analytics/v3.0/keyPhrases',
 }
 
-type Document = { documents: ({ id: string; language: string; text: string; } | null)[]; };
+export type Documents = { documents: ({ id: string; language: string; text: string | undefined; } | null)[]; };
 
-function get_sentiment(documents: Document, pathKey: string) {
-    const path = '/text/analytics/v3.1-preview.1/sentiment';
+function get_sentiment(documents: Documents, pathKey: string) {
+    const path = '/text/analytics/v3.0/sentiment';
     console.log(path)
     if (documents === null) return;
     let response_handler = function (response: any) {
@@ -41,7 +42,7 @@ function get_sentiment(documents: Document, pathKey: string) {
         });
     };
     
-    let get_sentiments = function (documents: Document) {
+    let get_sentiments = function (documents: Documents) {
        
         let body = JSON.stringify(documents);
         console.log(body)
@@ -54,7 +55,7 @@ function get_sentiment(documents: Document, pathKey: string) {
             }
         };
     
-        let req = axios.request(request_params, response_handler);
+        let req = https.request(request_params, response_handler);
         req.write(body);
         req.end();
     }
