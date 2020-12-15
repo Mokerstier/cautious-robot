@@ -1,27 +1,19 @@
-
-const https = require ('https');
-
+const https = require('https');
 const axios = require('axios');
 require('dotenv').config();
 
 const subscription_key = process.env.REACT_APP_AZURE_KEY as string;
 const endpoint = process.env.REACT_APP_AZURE_ENDPOINT as string;
 
-const paths = {
-    polarity: '/text/analytics/v3.0/sentiment',
-    keyPhrase: '/text/analytics/v3.0/keyPhrases',
-}
+// const paths = {
+//     polarity: '/text/analytics/v3.0/sentiment',
+//     keyPhrase: '/text/analytics/v3.0/keyPhrases',
+// }
 
+export type Documents = { documents: ({ id: string; language: string; text: string | undefined; } | null)[]; };
 
-const switchCase = (cases: any, defaultValue = null) =>
-    (key: any) => cases[key] || cases.default || defaultValue;
-
-// const getPath = switchCase(paths);
-
-type Document = { documents: ({ id: string; language: string; text: string; } | null)[]; };
-
-function get_sentiment(documents: Document, pathKey: string) {
-    const path = '/text/analytics/v3.1-preview.1/sentiment';
+function get_sentiment(documents: Documents, pathKey: string) {
+    const path = '/text/analytics/v3.0/sentiment';
     console.log(path)
     if (documents === null) return;
     let response_handler = function (response: any) {
@@ -50,7 +42,7 @@ function get_sentiment(documents: Document, pathKey: string) {
         });
     };
     
-    let get_sentiments = function (documents: Document) {
+    let get_sentiments = function (documents: Documents) {
        
         let body = JSON.stringify(documents);
         console.log(body)

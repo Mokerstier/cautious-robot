@@ -1,5 +1,16 @@
-.App {
+html{
+  background-color: #14161a;
+  color: #bebebe;
+}
+
+main{
+  max-width: 34rem;
+}
+.app {
   text-align: center;
+  display: grid;
+  grid-template-rows: repeat(auto);
+  justify-content: center;
 }
 
 .App-logo {
