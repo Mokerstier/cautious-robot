@@ -1,17 +1,13 @@
 import React, { FormEvent } from 'react'
 import $ from './azure-demo.module.scss';
-import _, { values } from 'lodash';
+import _ from 'lodash';
 import { Documents, get_sentiment } from 'src/controllers/getter/get-analysed-data';
-
-// interface Props{
-    
-// }
 
 const AzureDemo: React.FC = () => {
     const form = React.useRef<HTMLFormElement>(null);
     const input = React.useRef<HTMLInputElement>(null);
 
-    const [analysedFeedback, setAnalysedFeedback] = React.useState<Documents>();
+    const [analysedFeedback, setAnalysedFeedback] = React.useState<void | Documents | undefined>();
     const [inputValue, setInputValue] = React.useState<string>();
     
     const sendInput = (value: string) => {
@@ -30,7 +26,7 @@ const AzureDemo: React.FC = () => {
 
     }
 
-    React.useEffect(() =>{
+    React.useEffect(() => {
         if (!inputValue) return;
         const documents = {
             documents: [{
@@ -39,9 +35,14 @@ const AzureDemo: React.FC = () => {
                 text: inputValue,
             }]
         }
-        get_sentiment(documents, 'polarity')
+        const feedback = get_sentiment(documents, 'polarity')
+        console.log(feedback)
+        setAnalysedFeedback(feedback)
     }, [inputValue])
     
+    React.useEffect(() => {
+        console.log(analysedFeedback)
+    }, [analysedFeedback])
 
     return (
         <div className={$.demo}>

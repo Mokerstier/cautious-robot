@@ -5,10 +5,10 @@ require('dotenv').config();
 const subscription_key = process.env.REACT_APP_AZURE_KEY as string;
 const endpoint = process.env.REACT_APP_AZURE_ENDPOINT as string;
 
-const paths = {
-    polarity: '/text/analytics/v3.0/sentiment',
-    keyPhrase: '/text/analytics/v3.0/keyPhrases',
-}
+// const paths = {
+//     polarity: '/text/analytics/v3.0/sentiment',
+//     keyPhrase: '/text/analytics/v3.0/keyPhrases',
+// }
 
 export type Documents = { documents: ({ id: string; language: string; text: string | undefined; } | null)[]; };
 
