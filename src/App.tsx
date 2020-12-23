@@ -2,6 +2,7 @@ import React from 'react';
 import $ from './styles.module.scss';
 import { Switch, Route } from 'react-router-dom';
 import { routes } from 'src/routes';
+import Aside from 'src/ui/components/aside';
 // import { filterData } from "./controllers/dataFilter"
 // import { get_sentiment } from './controllers/getter/get-analysed-data'
 // import Topic from 'src/ui/components/organisms/topic';
@@ -49,9 +50,9 @@ const App = () => {
   return (
     <div className={$.app}>
       <header>
-        <h1>Data Driven World</h1>
-        
+        <h1>Data Driven World</h1> 
       </header>
+      <Aside />
       <main>
           <Switch>
               {routes.map(({ path, component: C }) => (
