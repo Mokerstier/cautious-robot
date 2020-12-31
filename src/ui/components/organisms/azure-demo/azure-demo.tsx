@@ -2,14 +2,12 @@ import React, { FormEvent } from 'react'
 import $ from './azure-demo.module.scss';
 import _ from 'lodash';
 import { useSentiment } from 'src/controllers/getter/get-analysed-data';
-import AzureResponse from 'src/core/models/response';
 
 const AzureDemo: React.FC = () => {
     const { response, setDocuments } = useSentiment()
     const form = React.useRef<HTMLFormElement>(null);
     const input = React.useRef<HTMLInputElement>(null);
 
-    const [analysedFeedback, setAnalysedFeedback] = React.useState<AzureResponse[]>([]);
     const [inputValue, setInputValue] = React.useState<string>();
     
     const sendInput = (value: string) => {
@@ -39,14 +37,8 @@ const AzureDemo: React.FC = () => {
         }
         setDocuments(documents)
 
-    }, [inputValue])
+    }, [inputValue, setDocuments])
     
-    // React.useEffect(() => {
-    //     if (response !== undefined){
-    //         console.log(response)
-    //         setAnalysedFeedback(response)
-    //     }
-    // }, [response])
 
     return (
         <div className={$.demo}>
@@ -55,10 +47,12 @@ const AzureDemo: React.FC = () => {
             <form onSubmit={(e) => handleSubmit(e)} ref={form} action="">
                 <div className={$.language}>    
                     <label htmlFor="">
-                        <input type="radio" name="" id=""/>
+                        English
+                        <input type="radio" name="lang" id="ENG" value="ENG"/>
                     </label>
                     <label htmlFor="">
-                        <input type="radio" name="" id=""/>
+                        Dutch
+                        <input type="radio" name="lang" id="NL" value="NL"/>
                     
                     </label>
                 </div>
