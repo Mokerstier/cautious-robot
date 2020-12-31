@@ -1,13 +1,15 @@
 import React, { FormEvent } from 'react'
 import $ from './azure-demo.module.scss';
 import _ from 'lodash';
-import { Documents, get_sentiment } from 'src/controllers/getter/get-analysed-data';
+import { useSentiment } from 'src/controllers/getter/get-analysed-data';
+import AzureResponse from 'src/core/models/response';
 
 const AzureDemo: React.FC = () => {
+    const { response, setDocuments } = useSentiment()
     const form = React.useRef<HTMLFormElement>(null);
     const input = React.useRef<HTMLInputElement>(null);
 
-    const [analysedFeedback, setAnalysedFeedback] = React.useState<void | Documents | undefined>();
+    const [analysedFeedback, setAnalysedFeedback] = React.useState<AzureResponse[]>([]);
     const [inputValue, setInputValue] = React.useState<string>();
     
     const sendInput = (value: string) => {
@@ -35,14 +37,16 @@ const AzureDemo: React.FC = () => {
                 text: inputValue,
             }]
         }
-        const feedback = get_sentiment(documents, 'polarity')
-        console.log(feedback)
-        setAnalysedFeedback(feedback)
+        setDocuments(documents)
+
     }, [inputValue])
     
-    React.useEffect(() => {
-        console.log(analysedFeedback)
-    }, [analysedFeedback])
+    // React.useEffect(() => {
+    //     if (response !== undefined){
+    //         console.log(response)
+    //         setAnalysedFeedback(response)
+    //     }
+    // }, [response])
 
     return (
         <div className={$.demo}>
@@ -60,9 +64,23 @@ const AzureDemo: React.FC = () => {
                 </div>
                 <label className={$.form} htmlFor="">
                     Put your text here:
-                    <input onChange={handleChange} ref={input} type="textarea"/>
+                    <input
+                        onChange={handleChange}
+                        ref={input} type="textarea"
+                    />
                 </label>
             </form>
+            {response && response.map((feedback) => (
+                <section>
+                    <h3>Sentiment analyse</h3>
+                    <div className={$.analyse}>
+                        <p>Positive {feedback.confidenceScores.positive}</p>
+                        <p>Negative {feedback.confidenceScores.negative}</p>
+                        <p>Neutral {feedback.confidenceScores.neutral}</p>
+                    </div>
+                </section>
+            ))}
+            
         </div>
     );
 }

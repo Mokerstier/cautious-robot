@@ -100,7 +100,7 @@ const DaySelector: React.FC<Props> = ({
                             />
                             <label
                                 htmlFor={inputId}
-                                // className={joinClassNames(selectionDate && $.selection, $.dayTitle)}
+                                className={selectionDate ? `${$.selection}, ${$.dayTitle}`: ''}
                             >
                                 <span className={className}>{dateDate}</span>
                             </label>
