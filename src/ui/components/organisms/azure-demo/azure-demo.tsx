@@ -1,13 +1,13 @@
 import React, { FormEvent } from 'react'
 import $ from './azure-demo.module.scss';
 import _ from 'lodash';
-import { Documents, get_sentiment } from 'src/controllers/getter/get-analysed-data';
+import { useSentiment } from 'src/controllers/getter/get-analysed-data';
 
 const AzureDemo: React.FC = () => {
+    const { response, setDocuments } = useSentiment()
     const form = React.useRef<HTMLFormElement>(null);
     const input = React.useRef<HTMLInputElement>(null);
 
-    const [analysedFeedback, setAnalysedFeedback] = React.useState<void | Documents | undefined>();
     const [inputValue, setInputValue] = React.useState<string>();
     
     const sendInput = (value: string) => {
@@ -35,14 +35,10 @@ const AzureDemo: React.FC = () => {
                 text: inputValue,
             }]
         }
-        const feedback = get_sentiment(documents, 'polarity')
-        console.log(feedback)
-        setAnalysedFeedback(feedback)
-    }, [inputValue])
+        setDocuments(documents)
+
+    }, [inputValue, setDocuments])
     
-    React.useEffect(() => {
-        console.log(analysedFeedback)
-    }, [analysedFeedback])
 
     return (
         <div className={$.demo}>
@@ -51,18 +47,34 @@ const AzureDemo: React.FC = () => {
             <form onSubmit={(e) => handleSubmit(e)} ref={form} action="">
                 <div className={$.language}>    
                     <label htmlFor="">
-                        <input type="radio" name="" id=""/>
+                        English
+                        <input type="radio" name="lang" id="ENG" value="ENG"/>
                     </label>
                     <label htmlFor="">
-                        <input type="radio" name="" id=""/>
+                        Dutch
+                        <input type="radio" name="lang" id="NL" value="NL"/>
                     
                     </label>
                 </div>
                 <label className={$.form} htmlFor="">
                     Put your text here:
-                    <input onChange={handleChange} ref={input} type="textarea"/>
+                    <input
+                        onChange={handleChange}
+                        ref={input} type="textarea"
+                    />
                 </label>
             </form>
+            {response && response.map((feedback) => (
+                <section>
+                    <h3>Sentiment analyse</h3>
+                    <div className={$.analyse}>
+                        <p>Positive {feedback.confidenceScores.positive}</p>
+                        <p>Negative {feedback.confidenceScores.negative}</p>
+                        <p>Neutral {feedback.confidenceScores.neutral}</p>
+                    </div>
+                </section>
+            ))}
+            
         </div>
     );
 }

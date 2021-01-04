@@ -1,0 +1,34 @@
+
+.ccontainer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;    
+}
+.cheader{
+    position: relative;
+    display: grid;
+    grid-template-columns: 120px auto;
+    column-gap: 6px;
+    justify-items: stretch;
+    height: 2rem;
+}
+.customBody{
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    grid-template-rows: 20px repeat(6, 30px);
+    text-align: center;
+    justify-items: center;
+    row-gap: 4px;
+
+    p{
+        text-transform: uppercase;
+        margin: 0;
+        place-self: end center;
+    }
+
+    input{
+        position: absolute;
+        left: -9999px;
+        visibility: hidden;
+    }
+}
