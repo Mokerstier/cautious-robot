@@ -1,0 +1,15 @@
+.topic {
+    max-width: 450px;
+    // background-color: rgb(45, 46, 46);
+
+    &header{
+        padding: 8px;
+        text-align: left;
+        background-color: rgb(20, 14, 43);
+        border-radius: 4px;
+    }
+}
+
+.npscontainer{
+    padding: 4px;
+}

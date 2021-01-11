@@ -1,12 +1,12 @@
 html{
-  background-color: #14161a;
+  background-color: #0a0b0e;
   color: #bebebe;
 }
 .app {
-  text-align: center;
+  text-align: left;
   display: grid;
   grid-template-columns: 340px 1fr;
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: 100px 1fr;
   grid-template-areas: 
     "header header"
     "aside main"
@@ -14,11 +14,22 @@ html{
   justify-content: center;
 }
 main{
-  max-width: 34rem;
+  grid-area: main;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
 }
-header{
+
+.header{
   grid-area: header;
+  padding: 20px;
+  background-color: rgb(20, 21, 22);
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

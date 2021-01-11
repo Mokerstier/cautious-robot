@@ -58,7 +58,7 @@ const DaySelector: React.FC<Props> = ({
                         <span className={$.labelHead}>
                             {i > 0 ? 'To:' : 'From:'}
                         </span>
-                        {date}
+                        <span className={$.date}>{date}</span>
                     </h3>
                 ))}
             </header>
