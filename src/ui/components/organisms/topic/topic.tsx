@@ -24,7 +24,7 @@ const Topic: React.FunctionComponent<Props> = ({ topic }) => {
 
     React.useEffect(() => {
         renderGraph(group, topic.children)
-    }, [topic]);
+    }, [topic, group]);
 
     return (
         <div className={$.topic}>

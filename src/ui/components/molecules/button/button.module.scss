@@ -1,0 +1,54 @@
+@import 'src/styling/variables.module.scss';
+
+button:not([disabled]) {
+    outline: none;
+    cursor: pointer;
+}
+button:disabled{
+    @include theme(background, button-inactive-background);
+}
+.button {
+    @include theme(color, light-grey);
+    @include theme(background, med-grey);
+    @include theme(border-radius, radius-small);
+    cursor: pointer;
+    padding: .8rem 2rem;
+    text-align: center;
+    transition: background-color .3s ease-in-out;
+    
+}
+
+.button:focus, .button:hover{
+    @include theme(background-color, button-hover-background);
+    @include theme(color, text);
+    border: currentColor 0px(1) solid;
+    outline: none;
+}
+
+.button:active {
+    @include theme(background-color, button-active-background);
+    @include theme(color, text);
+}
+
+.button:disabled, button:disabled{
+    @include theme(color, color-inactive);
+    @include theme(color, color-inactive);
+    @include theme(background, button-background);
+    cursor: default;
+    &:hover, &:focus{
+        @include theme(color, color-inactive);
+        @include theme(background, button-background);
+    }
+}
+
+
+.small{
+    padding: 0;
+    height: px(27);
+    width: px(36);
+}
+
+.active{
+    @include theme(background-color, button-active-background);
+    @include theme(color, text);
+}

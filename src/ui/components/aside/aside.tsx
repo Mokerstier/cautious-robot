@@ -9,11 +9,12 @@ import $ from './aside.module.scss';
 
 const Aside: React.FunctionComponent = () => {
     const match = useRouteMatch('/demo')
-    const { minDate, maxDate, periods } = useDates();
+    const { periods } = useDates();
     const [dayRange, setDays] = React.useState<number[]>([]);
     const [selectPeriod, setRange] = React.useState<{} | null>(null);
     const [yearRange, setYearRange] = React.useState<number>(baseDate.getFullYear());
     const [monthRange, setMonthRange] = React.useState<number>(baseDate.getMonth());
+    console.log(selectPeriod);
     
     if (match) return null;
     return (
