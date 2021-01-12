@@ -44,6 +44,8 @@ const AzureDemo: React.FC = () => {
         <div className={$.demo}>
             <h2>Live Demo</h2>
             <p>Enter a sentence and press submit for a live sentiment analyses.</p>
+            <p>Example positive text: LOVE LOVE LOVE this place for breakfast. They are always busy but I've never had to wait. The selection for breakfast is yummy!  I'd suggest this place to everyone!</p>
+            <p>Example negative text: Disgusting sandwich.</p>
             <form onSubmit={(e) => handleSubmit(e)} ref={form} action="">
                 <div className={$.language}>    
                     <label htmlFor="">
