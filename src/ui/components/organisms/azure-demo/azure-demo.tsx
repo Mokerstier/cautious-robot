@@ -6,7 +6,7 @@ import { useSentiment } from 'src/controllers/getter/get-analysed-data';
 const AzureDemo: React.FC = () => {
     const { response, setDocuments } = useSentiment()
     const form = React.useRef<HTMLFormElement>(null);
-    const input = React.useRef<HTMLInputElement>(null);
+    const input = React.useRef<HTMLTextAreaElement>(null);
 
     const [inputValue, setInputValue] = React.useState<string>();
     
@@ -56,12 +56,9 @@ const AzureDemo: React.FC = () => {
                     
                     </label>
                 </div>
-                <label className={$.form} htmlFor="">
+                <label className={$.form} htmlFor="input">
                     Put your text here:
-                    <input
-                        onChange={handleChange}
-                        ref={input} type="textarea"
-                    />
+                    <textarea ref={input} onChange={handleChange} name="" id="input" cols={30} rows={10}></textarea>
                 </label>
             </form>
             {response && response.map((feedback) => (

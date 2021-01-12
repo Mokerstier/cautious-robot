@@ -5,11 +5,66 @@
     &header{
         padding: 8px;
         text-align: left;
-        background-color: rgb(20, 14, 43);
+        background-color: #28252E;
         border-radius: 4px;
     }
 }
-
+.body{
+    position: relative;
+    &:hover{
+        &:before, &:after{
+            animation-play-state: running;
+        }
+    }
+    &:before {
+        content: '';
+        background-color: #5c9aec;
+        display: block;
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        top:0;
+        bottom: 0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        border: 1px solid #5c9aec73;
+        z-index: -1;
+        animation: x-pand 4s linear infinite paused;
+    }
+    &:after {
+        content: '';
+        background-color: #5c9aec;
+        display: block;
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        top:0;
+        bottom: 0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        border: 1px solid #5c9aec73;
+        z-index: -1;
+        animation: x-pand 4s linear infinite -3s paused;
+        opacity: .4;
+    }
+}
+.subheader{
+    background-color: #0c041a;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+}
 .npscontainer{
     padding: 4px;
+}
+
+@keyframes x-pand{
+    to{
+        background-color: #000000;
+        transform: scale(9);
+        opacity: 0;
+    }
 }

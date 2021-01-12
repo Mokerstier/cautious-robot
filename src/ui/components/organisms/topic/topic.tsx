@@ -30,16 +30,25 @@ const Topic: React.FunctionComponent<Props> = ({ topic }) => {
         <div className={$.topic}>
             <header className={$.topicheader}>
                 <h2>{topic.id}</h2>
-                <div className={$.npscontainer}>
-                    <span>
-                        {averageNps}
-                    </span>
-                    <span>NPS</span>
-                </div>
+                <div className={$.subheader}>
+                    <div className={$.npscontainer}>
+                        <span>{topic.children.length}</span>
+                        <span>Comments</span>
+                    </div>
+                    <div className={$.npscontainer}>
+                        <span>
+                            {averageNps}
+                        </span>
+                        <span>NPS</span>
+                    </div>
+                </div>   
             </header>
-            <svg width={width} height= {height}>
-                <g transform={translate} ref={group}></g>
-            </svg>
+            <div className={$.body}>
+                <svg width={width} height= {height}>
+                    <g transform={translate} ref={group}></g>
+                </svg>
+            </div>
+            
         </div>
     );
 }
