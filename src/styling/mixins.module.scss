@@ -1,0 +1,25 @@
+@mixin theme($properties, $name, $prefix: '', $suffix: '') {
+    $value: map-get($theme, $name);
+    @if $value {
+        @if type-of($value) == 'map' {
+            @each $theme-name, $theme-value in $value {
+                @if $theme-value {
+                    @each $property in $properties {
+                        :global([data-theme='#{$theme-name}']) & {
+                            #{$property}: #{$prefix} $theme-value  #{$suffix};
+                        }
+                    }
+                } @else {
+                    @warn "The `#{$theme-name}` value is not declared in the `#{$name}` theme settings";
+                }
+            }
+        } @else {
+            @each $property in $properties {
+                #{$property}: #{$prefix} $value #{$suffix};
+            }
+        }
+    } @else {
+        @warn "The given `#{$name}` is missing in theme settings";
+    }
+  }
+  

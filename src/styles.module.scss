@@ -1,6 +1,8 @@
+@import './styling/variables.module.scss';
+
 html{
   background-color: #0a0b0e;
-  color: #bebebe;
+  color: #D2D9DD;
 }
 .app {
   text-align: left;
@@ -27,7 +29,7 @@ main{
 .header{
   grid-area: header;
   padding: 20px;
-  background-color: rgb(20, 21, 22);
+  background-color: #28252E;
 }
 
 .App-logo {

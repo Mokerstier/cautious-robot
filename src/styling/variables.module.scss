@@ -1,0 +1,16 @@
+@import './mixins.module.scss';
+
+$theme: (
+    button-background: #465467,
+    button-active-background: #1a4c92,
+    button-inactive-background: rgba(26, 76, 146, 0.5),
+    button-hover-background: #2f68b8,
+    
+    color-inactive: #6e7785,
+    light-grey: #a9aaac,
+    med-grey: #858688,
+
+    radius-small: 4px,
+    
+    text:  #D2D9DD,
+);
