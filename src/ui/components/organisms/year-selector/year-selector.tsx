@@ -14,16 +14,7 @@ interface P {
 const YearSelector: React.FC<P> = ({
     selectedYear, setYear, periods,
 }) => {
-    const optionList = React.useRef() as React.RefObject<HTMLUListElement>;
-    console.log(periods)
     const [showOptions, setShowOptions] = useState(false);
-
-    const dropDownIcon = () => {
-        if (periods.length > 1) {
-            if (!showOptions) return 'chevDown';
-            if (showOptions) return 'chevUp';
-        } return undefined;
-    };
 
     const container = React.useRef<HTMLDivElement>(null);
 

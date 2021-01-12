@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import $ from './month-selector.module.scss';
 import { Button } from 'src/ui/components/molecules/button';
 import { months } from 'src/utils/dates/getDayDates';
@@ -12,8 +12,6 @@ interface Props {
 const MonthSelector: React.FC<Props> = ({
     selectedMonth, setMonth, setYear,
 }) => {
-    const date = new Date();
-    const [focus, setFocus] = useState<Date[]>();
 
     function setNextYear() {
         setYear((a) => (a + 1));
@@ -25,14 +23,6 @@ const MonthSelector: React.FC<Props> = ({
         setMonth(11);
     }
 
-    React.useEffect(() => {
-        if (focus) {
-            const year = date.getUTCFullYear();
-            const month = date.getMonth();
-            setYear(year);
-            setMonth(month);
-        }
-    }, [focus, setMonth, setYear]);
 
     return (
         <div className={$.periodBody}>

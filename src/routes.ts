@@ -3,6 +3,7 @@ import TopicView from "src/view/topic-view";
 
 export const paths = {
     topicView: '/',
+    graph: '/graph',
     demo: '/demo',
 
 };
@@ -10,6 +11,10 @@ export const paths = {
 export const routes = [
     {
         path: paths.topicView,
+        component: TopicView,
+    },
+    {
+        path: paths.graph,
         component: TopicView,
     },
     {
