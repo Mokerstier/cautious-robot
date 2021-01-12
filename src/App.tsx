@@ -49,7 +49,7 @@ const App = () => {
   // }, [data])
   return (
     <div className={$.app}>
-      <header>
+      <header className={$.header}>
         <h1>Data Driven World</h1> 
       </header>
       <Aside />

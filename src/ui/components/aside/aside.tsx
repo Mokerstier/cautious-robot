@@ -1,23 +1,44 @@
 import React from 'react';
-// import DaySelector from 'src/ui/components/organisms/date-selector';
-// import { baseDate } from 'src/utils/dates/getDayDates';
+import { useRouteMatch } from 'react-router-dom';
+import DaySelector from 'src/ui/components/organisms/date-selector';
+import MonthSelector from 'src/ui/components/organisms/month-selector';
+import YearSelector from 'src/ui/components/organisms/year-selector';
+import { useDates } from 'src/ui/hooks/use-dates';
+import { baseDate } from 'src/utils/dates/getDayDates';
 import $ from './aside.module.scss';
 
 const Aside: React.FunctionComponent = () => {
-    // const [dayRange, setDays] = React.useState<number[]>([]);
-    // const [selectPeriod, setRange] = React.useState<{} | null>(null);
-    // const [yearRange, setYearRange] = React.useState<number>(baseDate.getFullYear());
-    // const [monthRange, setMonthRange] = React.useState<number>(baseDate.getMonth());
-
+    const match = useRouteMatch('/demo')
+    const { minDate, maxDate, periods } = useDates();
+    const [dayRange, setDays] = React.useState<number[]>([]);
+    const [selectPeriod, setRange] = React.useState<{} | null>(null);
+    const [yearRange, setYearRange] = React.useState<number>(baseDate.getFullYear());
+    const [monthRange, setMonthRange] = React.useState<number>(baseDate.getMonth());
+    
+    if (match) return null;
     return (
         <aside className={$.aside}>
-            {/* <DaySelector
-                setDays={setDays}
-                dayRange={dayRange}
-                monthRange={monthRange}
-                setRange={setRange}
-                yearRange={yearRange}
-            /> */}
+            <form action="">
+                <YearSelector 
+                    selectedYear={yearRange}
+                    setYear={setYearRange}
+                    periods={periods}
+                />
+                <MonthSelector 
+                    selectedMonth={monthRange}
+                    setMonth={setMonthRange}
+                    setYear={setYearRange}
+                />
+                <DaySelector
+                    setDays={setDays}
+                    dayRange={dayRange}
+                    monthRange={monthRange}
+                    setRange={setRange}
+                    yearRange={yearRange}
+                />
+
+            </form>
+
         </aside>
     );
 };

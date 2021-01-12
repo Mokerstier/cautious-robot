@@ -5,11 +5,12 @@
     font-size: 12px;    
 }
 .cheader{
+    width: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: 120px auto;
+    grid-template-columns: 1fr 1fr;
     column-gap: 6px;
-    justify-items: stretch;
+    justify-content: space-between;
     height: 2rem;
 }
 .customBody{
@@ -31,4 +32,8 @@
         left: -9999px;
         visibility: hidden;
     }
+}
+.date{
+    color: #5c9bec;
+    margin-left: 4px;
 }

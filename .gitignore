@@ -14,6 +14,8 @@ eray-test.json
 # ENV
 .env
 /src/data
+debug.log
+*.log
 
 # misc
 .DS_Store
