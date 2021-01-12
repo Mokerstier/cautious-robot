@@ -1,7 +1,7 @@
 import React from 'react';
 import Maintopic from 'src/core/models/maintopic';
 import MessageNode from 'src/core/models/messagenode';
-import dataJson from 'src/data/dataGenerator.json';
+import dataJson from 'src/fakeData/dataGenerator.json';
 
 let bundledTopics: Maintopic[] = [];
 
