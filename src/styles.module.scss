@@ -27,11 +27,15 @@ main{
 }
 
 .header{
+  @include theme(background, med-background);
   grid-area: header;
   padding: 20px;
-  background-color: #28252E;
 }
 
+h1, h2, h3 {
+  margin: 0;
+  display: inline-block;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

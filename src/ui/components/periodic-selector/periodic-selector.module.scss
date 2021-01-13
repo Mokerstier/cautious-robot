@@ -1,0 +1,51 @@
+@import '~source/ui/styling/helpers.scss';
+
+.period{
+    &_container{
+        @include theme(border-radius, radius-med);
+    }
+    &_container:focus-within{
+        @include theme(color, text);
+    }
+
+    &_body{
+        position: relative;
+        color: currentColor;
+        display: grid;
+        grid-template-columns: 1fr 40%;
+        grid-template-rows: auto;
+        align-items: center;
+
+        h3{
+            @include theme(color, text);
+            font-weight: 400;
+            margin: 0;
+        }
+        
+        &:focus-within, &:focus-within label{
+            @include theme(color, text);
+        }
+    }
+}
+.quarter{
+    &_container{
+        @include theme(filter, drop-shadow);
+        @include theme(background, background);
+        @include theme(border-radius, radius-small);
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: px(37);
+        z-index: -1;
+    }
+
+    &:hover, &:focus-within{
+        z-index: 1;
+    }
+}
+
+.open{
+    z-index: 1;
+}

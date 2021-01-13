@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRouteMatch } from 'react-router-dom';
+import { Button } from 'src/ui/components/molecules/button';
 import DaySelector from 'src/ui/components/organisms/date-selector';
 import MonthSelector from 'src/ui/components/organisms/month-selector';
 import YearSelector from 'src/ui/components/organisms/year-selector';
@@ -37,7 +38,10 @@ const Aside: React.FunctionComponent = () => {
                     setRange={setRange}
                     yearRange={yearRange}
                 />
-
+                <Button 
+                    type="button"
+                    label="Submit"
+                />
             </form>
 
         </aside>

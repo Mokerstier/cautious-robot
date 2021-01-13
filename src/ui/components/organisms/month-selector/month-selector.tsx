@@ -25,22 +25,20 @@ const MonthSelector: React.FC<Props> = ({
 
 
     return (
-        <div className={$.periodBody}>
+        <div className={$.month_container}>
+            <Button
+                event={selectedMonth === 0 ? setPrevYear : setMonth}
+                eventValue={selectedMonth !== 0 && selectedMonth - 1}
+                type="small"
+                label="<"
+            />
             <h3>{months[selectedMonth]}</h3>
-            <div className={$.subGrid}>
-                <Button
-                    event={selectedMonth === 0 ? setPrevYear : setMonth}
-                    eventValue={selectedMonth !== 0 && selectedMonth - 1}
-                    type="navigation"
-                    label="<"
-                />
-                <Button
-                    event={selectedMonth === 11 ? setNextYear : setMonth}
-                    eventValue={selectedMonth !== 11 && selectedMonth + 1}
-                    type="navigation"
-                    label=">"
-                />
-            </div>
+            <Button
+                event={selectedMonth === 11 ? setNextYear : setMonth}
+                eventValue={selectedMonth !== 11 && selectedMonth + 1}
+                type="small"
+                label=">"
+            />
         </div>
     );
 };

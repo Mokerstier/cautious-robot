@@ -8,9 +8,11 @@ button:disabled{
     @include theme(background, button-inactive-background);
 }
 .button {
-    @include theme(color, light-grey);
-    @include theme(background, med-grey);
+    @include theme(color, text);
+    @include theme(background, color-brand);
+    @include theme(border-color, color-brand);
     @include theme(border-radius, radius-small);
+    border: 1px solid $c-brand-blue;
     cursor: pointer;
     padding: .8rem 2rem;
     text-align: center;
@@ -21,7 +23,7 @@ button:disabled{
 .button:focus, .button:hover{
     @include theme(background-color, button-hover-background);
     @include theme(color, text);
-    border: currentColor 0px(1) solid;
+    border: currentColor 1px solid;
     outline: none;
 }
 
@@ -31,7 +33,6 @@ button:disabled{
 }
 
 .button:disabled, button:disabled{
-    @include theme(color, color-inactive);
     @include theme(color, color-inactive);
     @include theme(background, button-background);
     cursor: default;
@@ -44,8 +45,8 @@ button:disabled{
 
 .small{
     padding: 0;
-    height: px(27);
-    width: px(36);
+    height: 27px;
+    width: 36px;
 }
 
 .active{

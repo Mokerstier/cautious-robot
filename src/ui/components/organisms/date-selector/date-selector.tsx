@@ -62,7 +62,7 @@ const DaySelector: React.FC<Props> = ({
                     </h3>
                 ))}
             </header>
-            <div className={$.customBody}>
+            <div className={$.custom_body}>
                 {WEEKDAYS_FROM_MONDAY.map((day) => (
                     <p key={day}>{day}</p>
                 ))}
@@ -86,7 +86,7 @@ const DaySelector: React.FC<Props> = ({
                     if (prevMonth) className = $.prevmonth;
                     if (thisDay) className = $.today;
                     return (
-                        <div key={date.getTime()} className={$.dayContainer}>
+                        <div key={date.getTime()} className={$.day_container}>
                             <input
                                 checked={!!match.length}
                                 ref={inputRef}

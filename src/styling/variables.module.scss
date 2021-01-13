@@ -1,16 +1,30 @@
 @import './mixins.module.scss';
 
+$c-brand-blue: #1B4CFD;
+
+$c-grey-dark: #465467;
+$c-grey-med: #657488;
+$c-grey: #8695AA;
+$c-grey-light: #A9B7CD;
+$c-grey-lighter: #CCDBF2;
+
+$c-background-dark: #070714;
+$c-background-med: #1A1939;
+
 $theme: (
-    button-background: #465467,
-    button-active-background: #1a4c92,
-    button-inactive-background: rgba(26, 76, 146, 0.5),
-    button-hover-background: #2f68b8,
+    dark-background: $c-background-dark,
+    med-background: $c-background-med,
+    button-background: $c-grey-dark,
+    button-active-background: $c-grey-med,
+    button-inactive-background: $c-grey,
+    button-hover-background: $c-grey-med,
     
-    color-inactive: #6e7785,
-    light-grey: #a9aaac,
-    med-grey: #858688,
+    color-brand: $c-brand-blue,
+    color-inactive: $c-grey,
+    grey-light: $c-grey-light,
+    grey-med: $c-grey-med,
 
     radius-small: 4px,
     
-    text:  #D2D9DD,
+    text: $c-grey-lighter,
 );

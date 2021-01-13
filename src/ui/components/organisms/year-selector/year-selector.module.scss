@@ -20,18 +20,6 @@
         }
     }
 
-    &_container{
-        @include theme(filter, drop-shadow);
-        @include theme(border-radius, radius-small);
-        width: 40%;
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        right: 0;
-        top: px(37);
-        z-index: -1;
-    }
-
     &:hover, &:focus-within{
         z-index: 1;
     }

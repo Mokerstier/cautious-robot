@@ -1,3 +1,4 @@
+@import 'src/styling/variables.module.scss';
 
 .ccontainer{
     display: flex;
@@ -13,7 +14,7 @@
     justify-content: space-between;
     height: 2rem;
 }
-.customBody{
+.custom_body{
     display: grid;
     grid-template-columns: repeat(7, 40px);
     grid-template-rows: 20px repeat(6, 30px);
@@ -26,11 +27,27 @@
         margin: 0;
         place-self: end center;
     }
+    .day_container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    label{
+        @include theme(border-radius, radius-small);
+        width: 30px;
+        padding: 8px 0;
+        text-align: center;
+    }
 
     input{
         position: absolute;
         left: -9999px;
         visibility: hidden;
+    }
+
+    input:checked + label {
+        @include theme(background, button-active-background);
     }
 }
 .date{
