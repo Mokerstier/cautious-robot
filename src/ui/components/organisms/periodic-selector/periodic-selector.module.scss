@@ -1,6 +1,10 @@
 @import 'src/styling/variables.module.scss';
 
 .period{
+    &_container:focus-within{
+        @include theme(color, text);
+    }
+
     &_body{
         position: relative;
         color: currentColor;
@@ -19,12 +23,8 @@
             @include theme(color, text);
         }
     }
-
-    &:hover, &:focus-within{
-        z-index: 1;
-    }
 }
-.period{
+.quarter{
     &_container{
         @include theme(border-radius, radius-small);
         width: 40%;

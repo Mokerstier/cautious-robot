@@ -1,12 +1,13 @@
 import React from 'react';
 import { WEEKDAYS_FROM_MONDAY } from 'src/core/constants';
+import { QuarterDates } from 'src/ui/hooks/use-dates';
 import { DAYS_OF_MONTH } from 'src/utils/dates/getDayDates';
 import $ from './date-selector.module.scss';
 
 interface Props {
     dayRange: number[];
     setDays: (value: number[]) => void;
-    setRange: React.Dispatch<React.SetStateAction<{} | null>>
+    setRange: React.Dispatch<React.SetStateAction<QuarterDates | null>>
     yearRange: number;
     monthRange: number;
 }
@@ -62,7 +63,7 @@ const DaySelector: React.FC<Props> = ({
                     </h3>
                 ))}
             </header>
-            <div className={$.customBody}>
+            <div className={$.custom_body}>
                 {WEEKDAYS_FROM_MONDAY.map((day) => (
                     <p key={day}>{day}</p>
                 ))}
@@ -86,7 +87,7 @@ const DaySelector: React.FC<Props> = ({
                     if (prevMonth) className = $.prevmonth;
                     if (thisDay) className = $.today;
                     return (
-                        <div key={date.getTime()} className={$.dayContainer}>
+                        <div key={date.getTime()} className={$.day_container}>
                             <input
                                 checked={!!match.length}
                                 ref={inputRef}

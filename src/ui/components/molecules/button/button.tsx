@@ -9,7 +9,7 @@ interface Props {
     eventValue?: unknown,
     eventFocus?: ((value: unknown) => void),
     label?: string,
-    type: string,
+    type: 'button' | 'submit' | 'reset',
     data?: string,
     disabled?: boolean,
     className?: string,
@@ -31,12 +31,12 @@ const Button: React.FunctionComponent<Props> = ({
     tabindex,
     event,
 }) => {
-    const buttonType = getButton(type);
+    const buttonType = getButton(className);
     return (
         <button
             onClick={event && (() => { event(eventValue); })}
-            className={joinClassNames(className, buttonType, active && $.active)}
-            type="button"
+            className={joinClassNames(buttonType, active && $.active)}
+            type={type}
             disabled={!!disabled}
             data-label={data}
             tabIndex={tabindex || 0}

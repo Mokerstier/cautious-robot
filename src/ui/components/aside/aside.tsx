@@ -1,25 +1,49 @@
 import React from 'react';
-import { useRouteMatch } from 'react-router-dom';
+import { useHistory, useRouteMatch } from 'react-router-dom';
+import { Button } from 'src/ui/components/molecules/button';
 import DaySelector from 'src/ui/components/organisms/date-selector';
 import MonthSelector from 'src/ui/components/organisms/month-selector';
 import YearSelector from 'src/ui/components/organisms/year-selector';
-import { useDates } from 'src/ui/hooks/use-dates';
+import PeriodicSelector from 'src/ui/components/organisms/periodic-selector';
+import { QuarterDates, useDates } from 'src/ui/hooks/use-dates';
 import { baseDate } from 'src/utils/dates/getDayDates';
 import $ from './aside.module.scss';
 
 const Aside: React.FunctionComponent = () => {
-    const match = useRouteMatch('/demo')
+    const history = useHistory();
+    const match = useRouteMatch('/demo');
     const { periods } = useDates();
     const [dayRange, setDays] = React.useState<number[]>([]);
-    const [selectPeriod, setRange] = React.useState<{} | null>(null);
+    const [selectPeriod, setRange] = React.useState<QuarterDates | null>(null);
     const [yearRange, setYearRange] = React.useState<number>(baseDate.getFullYear());
     const [monthRange, setMonthRange] = React.useState<number>(baseDate.getMonth());
     console.log(selectPeriod);
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        const qsDay = Object.keys(dayRange)
+            .map((key) => `day=${encodeURIComponent(dayRange[key])}`)
+            .join('&');
+
+        history.push({
+            search: `${qsDay}`,
+            state: 'filter',
+        });
+    }
     
     if (match) return null;
     return (
         <aside className={$.aside}>
-            <form action="">
+            <form 
+                action=""
+                onSubmit={(e) => handleSubmit(e)}
+            >
+                <PeriodicSelector 
+                    selected={selectPeriod}
+                    periods={periods}
+                    setRange={setRange}
+                    selectedYear={yearRange}
+                />
                 <YearSelector 
                     selectedYear={yearRange}
                     setYear={setYearRange}
@@ -37,7 +61,11 @@ const Aside: React.FunctionComponent = () => {
                     setRange={setRange}
                     yearRange={yearRange}
                 />
-
+                <Button
+                    className="button" 
+                    type="submit"
+                    label="Submit"
+                />
             </form>
 
         </aside>

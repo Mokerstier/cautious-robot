@@ -1,1 +1,8 @@
+@import 'src/styling/variables.module.scss';
 
+.month{
+    &_container {
+        display: flex;
+        justify-content: space-between;
+    }
+}

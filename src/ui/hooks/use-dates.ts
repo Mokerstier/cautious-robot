@@ -37,19 +37,16 @@ export interface Period {
 
 export function useDates() {
     const { data } = dataJson;
-    const allDates = data.map((d) => Number(d.timestamp));
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const allDates = data.map((d) => Number(d.timestamp) * 1000);
     const [periods, setPeriodes] = useState<any | null>(null);
-    const QUARTERSBYINDEX = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [9, 10, 11]];
     let availablePeriods: any;
 
     useEffect(() => {
         setPeriodes(availablePeriods);
     }, [availablePeriods]);
     
-    const maxDate = new Date(Math.max(...allDates) * 1000);
-    const minDate = new Date(Math.min(...allDates) * 1000);
+    const maxDate = new Date(Math.max(...allDates));
+    const minDate = new Date(Math.min(...allDates));
     minDate.setHours(0, 0, 0, 0);
     const availableYears: number[] = [];
     let availableMonthsAndYears: Period[] = [];
@@ -63,7 +60,7 @@ export function useDates() {
             };
             availableMonthsAndYears = [monthYear];
         } else {
-            for (let i = minDate.getMonth(); i < maxDate.getMonth(); i + 1) {
+            for (let i = minDate.getMonth(); i < maxDate.getMonth(); i ++) {
                 const period = {
                     month: [minDate.getMonth() + i],
                     year: minDate.getFullYear(),
@@ -73,16 +70,47 @@ export function useDates() {
             }
         }
     } else {
-        for (let i = minDate.getFullYear(); i < maxDate.getFullYear(); i += 1) {
-            availableYears.push(i);
+        for (let i = minDate.getFullYear(); i <= maxDate.getFullYear(); i++){
+            availableYears.push(i)
         }
+
+        availableYears.forEach((year, i) => {
+            if(i === 0) {
+                const period = {
+                    month: [] as number[],
+                    year: year,
+                    quarterDates: [],
+                };
+                for (let i = minDate.getMonth(); i < 11; i ++) {
+                    period.month.push(i);
+                }
+                availableMonthsAndYears.push(period);
+            } else if (i === availableYears.length - 1) {
+                const period = {
+                    month: [] as number[],
+                    year: year,
+                    quarterDates: [],
+                };
+                for (let i = 0; i <= maxDate.getMonth(); i ++) {
+                    period.month.push(i);
+                }
+                availableMonthsAndYears.push(period);
+            } else {
+                const period = {
+                    month: [] as number[],
+                    year: year,
+                    quarterDates: [],
+                };
+                for (let i = 0; i <= 11; i ++) {
+                    period.month.push(i);
+                } 
+                availableMonthsAndYears.push(period);
+            }
+        })
     }
 
     availablePeriods = availableMonthsAndYears.map((object) => {
         const { month, year } = object;
-        const availableQuarters = QUARTERSBYINDEX.map(
-            (array) => (array.includes(month[0])),
-        );
 
         const period = {
             month,
@@ -90,7 +118,7 @@ export function useDates() {
             quarterDates: [
                 {
                     title: 'Q1',
-                    available: availableQuarters[0],
+                    available: month.includes(0) || month.includes(1) || month.includes(2),
                     dates: {
                         startDate: new Date(year, 0, 1),
                         endDate: new Date(year, 3, 0),
@@ -98,7 +126,7 @@ export function useDates() {
                 },
                 {
                     title: 'Q2',
-                    available: availableQuarters[1],
+                    available: month.includes(3) || month.includes(4) || month.includes(5),
                     dates: {
                         startDate: new Date(year, 3, 1),
                         endDate: new Date(year, 6, 0),
@@ -106,7 +134,7 @@ export function useDates() {
                 },
                 {
                     title: 'Q3',
-                    available: availableQuarters[2],
+                    available: month.includes(6) || month.includes(7) || month.includes(8),
                     dates: {
                         startDate: new Date(year, 6, 1),
                         endDate: new Date(year, 9, 0),
@@ -114,7 +142,7 @@ export function useDates() {
                 },
                 {
                     title: 'Q4',
-                    available: availableQuarters[3],
+                    available: month.includes(9) || month.includes(10) || month.includes(11),
                     dates: {
                         startDate: new Date(year, 9, 1),
                         endDate: new Date(year, 12, 0),
@@ -124,6 +152,6 @@ export function useDates() {
         };
         return period;
     });
-
+    
     return { periods, maxDate, minDate };
 }
