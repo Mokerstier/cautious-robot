@@ -6,14 +6,12 @@ import MonthSelector from 'src/ui/components/organisms/month-selector';
 import YearSelector from 'src/ui/components/organisms/year-selector';
 import PeriodicSelector from 'src/ui/components/organisms/periodic-selector';
 import { QuarterDates, useDates } from 'src/ui/hooks/use-dates';
-import { useMainTopics } from 'src/ui/hooks/use-maintopics';
 import { baseDate } from 'src/utils/dates/getDayDates';
 import $ from './aside.module.scss';
 
 const Aside: React.FunctionComponent = () => {
     const history = useHistory();
     const match = useRouteMatch('/demo');
-    const { mainTopics, setMainTopics } = useMainTopics();
     const { periods } = useDates();
     const [dayRange, setDays] = React.useState<number[]>([]);
     const [selectPeriod, setRange] = React.useState<QuarterDates | null>(null);

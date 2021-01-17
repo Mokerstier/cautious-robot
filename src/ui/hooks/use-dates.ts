@@ -74,7 +74,7 @@ export function useDates() {
             availableYears.push(i)
         }
 
-        availableYears.map((year, i) => {
+        availableYears.forEach((year, i) => {
             if(i === 0) {
                 const period = {
                     month: [] as number[],
