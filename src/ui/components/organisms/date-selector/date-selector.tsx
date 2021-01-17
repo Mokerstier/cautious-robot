@@ -1,12 +1,13 @@
 import React from 'react';
 import { WEEKDAYS_FROM_MONDAY } from 'src/core/constants';
+import { QuarterDates } from 'src/ui/hooks/use-dates';
 import { DAYS_OF_MONTH } from 'src/utils/dates/getDayDates';
 import $ from './date-selector.module.scss';
 
 interface Props {
     dayRange: number[];
     setDays: (value: number[]) => void;
-    setRange: React.Dispatch<React.SetStateAction<{} | null>>
+    setRange: React.Dispatch<React.SetStateAction<QuarterDates | null>>
     yearRange: number;
     monthRange: number;
 }

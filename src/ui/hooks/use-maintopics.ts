@@ -39,5 +39,5 @@ export function useMainTopics() {
         addToCluster(item);
     });
 
-    return { mainTopics };
+    return { mainTopics, setMainTopics };
 }

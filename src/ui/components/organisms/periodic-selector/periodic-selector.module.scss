@@ -1,9 +1,6 @@
-@import '~source/ui/styling/helpers.scss';
+@import 'src/styling/variables.module.scss';
 
 .period{
-    &_container{
-        @include theme(border-radius, radius-med);
-    }
     &_container:focus-within{
         @include theme(color, text);
     }
@@ -29,15 +26,14 @@
 }
 .quarter{
     &_container{
-        @include theme(filter, drop-shadow);
-        @include theme(background, background);
         @include theme(border-radius, radius-small);
         width: 40%;
         padding: 0;
+        list-style: none;
         margin: 0;
         position: absolute;
         right: 0;
-        top: px(37);
+        top: 40px;
         z-index: -1;
     }
 

@@ -29,15 +29,17 @@ const MonthSelector: React.FC<Props> = ({
             <Button
                 event={selectedMonth === 0 ? setPrevYear : setMonth}
                 eventValue={selectedMonth !== 0 && selectedMonth - 1}
-                type="small"
+                type="button"
                 label="<"
+                className="small"
             />
             <h3>{months[selectedMonth]}</h3>
             <Button
                 event={selectedMonth === 11 ? setNextYear : setMonth}
                 eventValue={selectedMonth !== 11 && selectedMonth + 1}
-                type="small"
+                type="button"
                 label=">"
+                className="small"
             />
         </div>
     );

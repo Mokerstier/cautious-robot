@@ -15,20 +15,14 @@ const PeriodicSelector: React.FunctionComponent<Props> = ({
     periods, setRange, selected, selectedYear,
 }) => {
     const [showOptions, setShowOptions] = React.useState(false);
-    const thisPeriod = periods.filter((period) => (period.year === selectedYear))[0] || emptyPeriod;
+    const thisPeriod = periods?.filter((period) => (period.year === selectedYear))[0] || emptyPeriod;
 
     const quartersWithRef = React.useMemo(() => thisPeriod?.quarterDates
         .map((quarter) => ({
             liRef: React.createRef<HTMLLIElement>(),
             quarter,
-        })), [thisPeriod, selectedYear]);
+        })), [thisPeriod]);
 
-    const dropDownIcon = () => {
-        if (quartersWithRef.length > 1) {
-            if (!showOptions) return 'chevDown';
-            if (showOptions) return 'chevUp';
-        } return undefined;
-    };
     const availableQuarters = quartersWithRef.map(
         (quarterWithRef) => (quarterWithRef.quarter.available === true
             ? quarterWithRef.quarter.title : null),
@@ -48,20 +42,21 @@ const PeriodicSelector: React.FunctionComponent<Props> = ({
 
     return (
         <div
-            className={$.periodBody}
+            className={$.period_body}
             key={quarterLabel}
         >
             <h3>Quarter</h3>
             <Button
                 event={setShowOptions}
                 eventValue={!showOptions}
-                type="dropDown"
+                type="button"
+                className="button"
                 label={quarterLabel}
             />
             <ul
                 className={
-                    showOptions ? joinClassNames($.quarterContainer, $.open)
-                        : $.quarterContainer
+                    showOptions ? joinClassNames($.quarter_container, $.open)
+                        : $.quarter_container
                 }
                 onFocus={() => setShowOptions(true)}
                 onBlur={() => setShowOptions(false)}
@@ -77,7 +72,8 @@ const PeriodicSelector: React.FunctionComponent<Props> = ({
                             event={setRange}
                             eventValue={quarter}
                             disabled={!quarter.available}
-                            type="dropDown"
+                            type="button"
+                            className="button"
                             label={quarter.title}
                         />
                     </li>

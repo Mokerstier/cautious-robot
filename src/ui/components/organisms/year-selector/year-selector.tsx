@@ -20,35 +20,37 @@ const YearSelector: React.FC<P> = ({
 
     return (
         <div
-            className={$.periodBody}
+            className={$.period_body}
             ref={container}
         >
             <h3>Year</h3>
             <Button
                 disabled={!(periods?.length > 1)}
                 event={setShowOptions}
-                eventValue={showOptions}
+                eventValue={!showOptions}
                 label={selectedYear.toString()}
-                type="dropDown"
+                type="button"
+                className="button"
             />
             <ul
                 className={
-                    showOptions ? joinClassNames($.periodContainer, $.open)
-                        : $.periodContainer
+                    showOptions ? joinClassNames($.period_container, $.open)
+                        : $.period_container
                 }
                 onFocus={() => setShowOptions(true)}
                 onBlur={() => setShowOptions(false)}
             >
                 {periods?.map((period) => (
                     <li
-                        className={joinClassNames($.listItem, $.year)}
+                        className={joinClassNames($.list_item, $.year)}
                         key={period.year}
                     >
                         <Button
                             active={selectedYear === period.year}
                             event={setYear}
                             eventValue={period.year}
-                            type="dropDown"
+                            type="button"
+                            className="button"
                             label={period.year.toString()}
                             tabindex={showOptions ? 0 : -1}
                         />

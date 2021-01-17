@@ -24,6 +24,23 @@
         z-index: 1;
     }
 }
+.period{
+    &_container{
+        @include theme(border-radius, radius-small);
+        width: 40%;
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 40px;
+        z-index: -1;
+    }
+
+    &:hover, &:focus-within{
+        z-index: 1;
+    }
+}
 
 .open{
     z-index: 1;
