@@ -13,9 +13,9 @@ function renderLine(data, SVGElements, w, h) {
     allData.sort((a, b) => (b.timestamp - a.timestamp));
 
     // Calculate average Polarity over time
-    const averagePOL = (data) => d3.mean(allData
-        .filter((d) => d.timestamp <= data.timestamp),
-    (d) => d.polarity);
+    // const averagePOL = (data) => d3.mean(allData
+    //     .filter((d) => d.timestamp <= data.timestamp),
+    // (d) => d.polarity);
 
     // SVG GRAPH
     const axisX = d3.select(axisBottom);

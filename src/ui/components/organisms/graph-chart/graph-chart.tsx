@@ -16,7 +16,7 @@ const GraphChart: React.FunctionComponent<Props> = ({ topic }) => {
     const group = React.useRef() as React.RefObject<SVGGElement>;
     const width = 460;
     const height = 400;
-    const translate = `translate(50, ${height / 2})`;
+    // const translate = `translate(50, ${height / 2})`;
 
     const npsArray = topic.nps.filter((grade) => (grade !== null)) as number[];
         // criticastersCount are grades between 1 and 7
