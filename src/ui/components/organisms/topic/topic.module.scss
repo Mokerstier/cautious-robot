@@ -1,6 +1,11 @@
 .topic {
+    width: 100%;
     max-width: 450px;
+    margin-bottom: 20px;
     // background-color: rgb(45, 46, 46);
+    // svg{
+    //     position: relative;
+    // }
 
     &header{
         padding: 8px;
@@ -11,6 +16,15 @@
 }
 .body{
     position: relative;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    h3{
+        width: 100%;
+        text-align: center;
+    }
+
     &:hover{
         &:before, &:after{
             animation-play-state: running;

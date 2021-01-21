@@ -60,7 +60,7 @@ export function useDates() {
             };
             availableMonthsAndYears = [monthYear];
         } else {
-            for (let i = minDate.getMonth(); i < maxDate.getMonth(); i ++) {
+            for (let i = minDate.getMonth(); i < maxDate.getMonth(); i += 1) {
                 const period = {
                     month: [minDate.getMonth() + i],
                     year: minDate.getFullYear(),
@@ -70,7 +70,7 @@ export function useDates() {
             }
         }
     } else {
-        for (let i = minDate.getFullYear(); i <= maxDate.getFullYear(); i++){
+        for (let i = minDate.getFullYear(); i <= maxDate.getFullYear(); i += 1){
             availableYears.push(i)
         }
 

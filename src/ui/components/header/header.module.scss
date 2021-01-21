@@ -1,0 +1,87 @@
+@import 'src/styling/variables.module.scss';
+
+.header {
+    @include theme(background, med-background);
+    grid-area: header;
+    padding: 20px;
+    padding: px(20);
+    display: grid;
+    row-gap: px(6);
+    align-items: center;
+    margin: px(20) 1rem;
+    position: relative;
+    min-height: px(95);
+    
+    h1{
+        margin: 0;
+    }
+}
+
+.extra-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    > p:first-child {
+        margin-bottom: px(5);
+    }
+    > div {
+        align-self: flex-end;
+        width: 5rem;
+    }
+}
+
+.navigation{
+
+    ul{
+        display: flex;
+        padding: 0;
+        margin: 0;
+
+        li{
+            @include theme(color, light-grey);
+            display: flex;
+            align-items: center;
+            i{
+                height: px(16);
+            }
+            a{
+                @include theme(color, light-grey);
+                text-decoration: none;
+            }
+        }
+    }
+    .link{
+        &_text{
+            @include theme(color, brand-color);
+        }
+
+        &_active{
+            a{
+                @include theme(color, text);
+            }
+            
+        }
+    }
+}
+
+// .comment{
+//     &_view{
+//         position: relative;
+
+//         &::after {
+//             @include theme(border-radius, border-round);
+//             position: absolute;
+//             content: '';
+//             display: block;
+//             width: 100.5%;
+//             height: px(4);
+//             bottom: -.7rem;
+//             left: -.5%;
+//             background: linear-gradient(to right, transparent, $c-sentiment-green, transparent 33%, $c-error 50%, transparent 66.6%, $c-notification, transparent);
+//         }
+//     }
+// }

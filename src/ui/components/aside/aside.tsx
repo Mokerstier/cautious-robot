@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory, useRouteMatch } from 'react-router-dom';
+import { Link, useHistory, useRouteMatch } from 'react-router-dom';
 import { Button } from 'src/ui/components/molecules/button';
 import DaySelector from 'src/ui/components/organisms/date-selector';
 import MonthSelector from 'src/ui/components/organisms/month-selector';
@@ -17,7 +17,15 @@ const Aside: React.FunctionComponent = () => {
     const [selectPeriod, setRange] = React.useState<QuarterDates | null>(null);
     const [yearRange, setYearRange] = React.useState<number>(baseDate.getFullYear());
     const [monthRange, setMonthRange] = React.useState<number>(baseDate.getMonth());
-    console.log(selectPeriod);
+
+
+    function clearFilter() {
+        setDays([]);
+        history.push({
+            search: '',
+            state: 'filter',
+        });
+    }
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -32,8 +40,28 @@ const Aside: React.FunctionComponent = () => {
     }
     
     if (match) return null;
-    return (
+    return (   
         <aside className={$.aside}>
+            <nav>
+                <h2>Change view</h2>
+                <ul>
+                    <li>
+                        <Link to="/">
+                            Topic View
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/graph">
+                            KPI View
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/demo">
+                            Azure Demo
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
             <form 
                 action=""
                 onSubmit={(e) => handleSubmit(e)}
@@ -65,6 +93,12 @@ const Aside: React.FunctionComponent = () => {
                     className="button" 
                     type="submit"
                     label="Submit"
+                />
+                <Button
+                    className="button" 
+                    type="button"
+                    label="Clear Filter"
+                    event={() => clearFilter()}
                 />
             </form>
 

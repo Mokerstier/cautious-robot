@@ -23,904 +23,1604 @@
 	],
     "data":[
 		{
-			"text": "ultrices posuere cubilia Curae; Donec tincidunt. Donec vitae erat vel pede blandit congue.",
-			"polarity": 4,
-			"nps": 7,
-			"timestamp": "1624753058",
-			"topic": "Beschadigingen",
-			"id": "C41F206C-D50E-6010-5F4F-3B5350CDB8D5",
-			"language": "nl"
+			"text": "Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est ac facilisis facilisis, magna tellus faucibus leo, in lobortis tellus justo sit amet nulla. Donec non",
+			"polarity": -9,
+			"nps": 1,
+			"timestamp": "1609277202",
+			"topic": "Inloggen",
+			"language": "Netherlands"
 		},
 		{
-			"text": "In nec orci. Donec nibh. Quisque nonummy",
-			"polarity": 8,
+			"text": "erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet.",
+			"polarity": -5,
 			"nps": 4,
-			"timestamp": "1608067650",
+			"timestamp": "1565951784",
 			"topic": "Bezorgen",
-			"id": "CDC59330-8B98-E554-6EBF-E72751D2DC85",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies",
+			"text": "et magnis dis parturient montes, nascetur ridiculus mus. Proin vel arcu eu odio tristique",
+			"polarity": -6,
+			"nps": 5,
+			"timestamp": "1568379773",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque",
+			"polarity": -10,
+			"nps": 4,
+			"timestamp": "1602460516",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus",
+			"polarity": -10,
+			"nps": 2,
+			"timestamp": "1601651658",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis",
+			"polarity": -10,
+			"nps": 3,
+			"timestamp": "1594513023",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "enim. Curabitur massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus",
+			"polarity": -3,
+			"nps": 3,
+			"timestamp": "1584587871",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Nam ligula elit, pretium et, rutrum non, hendrerit id, ante. Nunc mauris",
+			"polarity": -8,
+			"nps": 2,
+			"timestamp": "1592335386",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In nec orci.",
+			"polarity": -10,
+			"nps": 2,
+			"timestamp": "1579804008",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit",
+			"polarity": -5,
+			"nps": 4,
+			"timestamp": "1593434822",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris magna. Duis",
+			"polarity": -9,
+			"nps": 3,
+			"timestamp": "1554917339",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui. Suspendisse",
+			"polarity": -10,
+			"nps": 1,
+			"timestamp": "1600697016",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis.",
+			"polarity": -5,
+			"nps": 1,
+			"timestamp": "1606814191",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "vel, mauris. Integer sem elit, pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero. Proin",
+			"polarity": -5,
+			"nps": 5,
+			"timestamp": "1548679560",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel,",
 			"polarity": -2,
-			"nps": 7,
-			"timestamp": "1597625064",
-			"topic": "Bezorgen",
-			"id": "E8CDFD5D-1591-E463-673B-4384328617FB",
-			"language": "nl"
-		},
-		{
-			"text": "lorem vitae odio sagittis semper. Nam tempor",
-			"polarity": -7,
-			"nps": 3,
-			"timestamp": "1607699356",
-			"topic": "Wijzigen",
-			"id": "3040426E-CE37-A610-4EEC-DCBA17081EA3",
-			"language": "nl"
-		},
-		{
-			"text": "Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae",
-			"polarity": 0,
-			"nps": 8,
-			"timestamp": "1601235471",
-			"topic": "Account",
-			"id": "45C77143-7403-8999-CDEC-3F8518F12FBF",
-			"language": "nl"
-		},
-		{
-			"text": "Maecenas mi felis, adipiscing fringilla, porttitor vulputate,",
-			"polarity": 4,
-			"nps": 8,
-			"timestamp": "1630589333",
+			"nps": 0,
+			"timestamp": "1550639866",
 			"topic": "Beschadigingen",
-			"id": "3C857AE0-2B4A-6252-EA23-76174C1F0667",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel",
-			"polarity": 6,
-			"nps": 6,
-			"timestamp": "1596394007",
-			"topic": "Bezorgen",
-			"id": "87359E5A-9088-713B-DCCF-B42DA39C87B7",
-			"language": "nl"
-		},
-		{
-			"text": "imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc",
-			"polarity": 4,
-			"nps": 4,
-			"timestamp": "1626618607",
-			"topic": "Inloggen",
-			"id": "3A3104B5-6D55-8362-6159-A345B56CCE76",
-			"language": "nl"
-		},
-		{
-			"text": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque.",
-			"polarity": 9,
-			"nps": 4,
-			"timestamp": "1614239315",
-			"topic": "Bezorgen",
-			"id": "37059310-9B00-BE20-8FB7-65D7A9009E46",
-			"language": "nl"
-		},
-		{
-			"text": "Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula",
-			"polarity": -10,
-			"nps": 9,
-			"timestamp": "1589995629",
-			"topic": "Account",
-			"id": "A3B39C03-71E2-FB86-FAA5-B6F77D30A7E6",
-			"language": "nl"
-		},
-		{
-			"text": "montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus.",
-			"polarity": -10,
-			"nps": 10,
-			"timestamp": "1631509670",
-			"topic": "Account",
-			"id": "BD5EAA2D-1B3D-D0FB-E2F2-C6B895952FEB",
-			"language": "nl"
-		},
-		{
-			"text": "tortor. Integer aliquam adipiscing lacus.",
-			"polarity": 4,
-			"nps": 4,
-			"timestamp": "1596469396",
-			"topic": "Inloggen",
-			"id": "478AD947-7ED5-2426-B0C6-BD4657AD212D",
-			"language": "nl"
-		},
-		{
-			"text": "nibh dolor, nonummy ac, feugiat non, lobortis quis,",
-			"polarity": -1,
-			"nps": 4,
-			"timestamp": "1602850140",
-			"topic": "Wijzigen",
-			"id": "44E23599-BB4B-4FC7-B4CC-614F15A94E44",
-			"language": "nl"
-		},
-		{
-			"text": "auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi",
-			"polarity": -1,
+			"text": "enim non nisi. Aenean eget metus. In nec orci. Donec nibh. Quisque nonummy ipsum",
+			"polarity": -6,
 			"nps": 3,
-			"timestamp": "1604276708",
+			"timestamp": "1565507857",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "mauris, rhoncus id, mollis nec, cursus a, enim. Suspendisse aliquet, sem ut cursus luctus, ipsum leo",
+			"polarity": -4,
+			"nps": 5,
+			"timestamp": "1582232102",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ornare tortor at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus ante dictum mi, ac mattis velit justo",
+			"polarity": -1,
+			"nps": 5,
+			"timestamp": "1581930176",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce",
+			"polarity": -8,
+			"nps": 4,
+			"timestamp": "1606451715",
 			"topic": "Inloggen",
-			"id": "179FF589-D680-FFD5-78F1-845E3BB1D7B9",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis.",
-			"polarity": 5,
-			"nps": 10,
-			"timestamp": "1604668090",
+			"text": "felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et,",
+			"polarity": -4,
+			"nps": 3,
+			"timestamp": "1603104924",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue",
+			"polarity": -6,
+			"nps": 1,
+			"timestamp": "1574454563",
 			"topic": "Bezorgen",
-			"id": "55CAA4B9-88F2-9E14-AD30-434640A04818",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem,",
+			"text": "mauris ipsum porta elit, a feugiat tellus lorem eu metus. In",
+			"polarity": -8,
+			"nps": 0,
+			"timestamp": "1585277747",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec",
+			"polarity": -8,
+			"nps": 5,
+			"timestamp": "1556254498",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus ut,",
 			"polarity": -9,
 			"nps": 2,
-			"timestamp": "1604391463",
-			"topic": "Beschadigingen",
-			"id": "8AA38FD5-D2E9-3D6C-A90F-2FB82F10D980",
-			"language": "nl"
-		},
-		{
-			"text": "Donec fringilla. Donec feugiat metus sit amet",
-			"polarity": -8,
-			"nps": 10,
-			"timestamp": "1609236484",
+			"timestamp": "1580364677",
 			"topic": "Inloggen",
-			"id": "FBC4B070-A748-EBB0-1616-74F967A52824",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "neque. Morbi quis urna. Nunc quis arcu vel quam dignissim",
-			"polarity": -4,
-			"nps": 2,
-			"timestamp": "1618056747",
-			"topic": "Bezorgen",
-			"id": "ED6DDFEC-51F9-DCD0-F117-849C9E26F9D9",
-			"language": "nl"
+			"text": "Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc",
+			"polarity": -3,
+			"nps": 1,
+			"timestamp": "1581651305",
+			"topic": "Inloggen",
+			"language": "Netherlands"
 		},
 		{
-			"text": "libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus",
-			"polarity": 8,
-			"nps": 5,
-			"timestamp": "1629930338",
-			"topic": "Beschadigingen",
-			"id": "E1BA3AC6-C157-7FCA-8CF2-79312EB9EC80",
-			"language": "nl"
-		},
-		{
-			"text": "mattis semper, dui lectus rutrum urna, nec luctus felis purus ac",
-			"polarity": 5,
+			"text": "nunc. In at pede. Cras vulputate velit eu sem. Pellentesque ut ipsum ac mi",
+			"polarity": -7,
 			"nps": 4,
-			"timestamp": "1625428977",
-			"topic": "Account",
-			"id": "585A4F6E-29C9-07D2-7E44-AB4609D271C7",
-			"language": "nl"
+			"timestamp": "1552793345",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
 		},
 		{
-			"text": "Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis",
-			"polarity": -8,
-			"nps": 10,
-			"timestamp": "1598654514",
-			"topic": "Account",
-			"id": "EEF7EFD3-5A16-80AB-E266-F66257ED6EA2",
-			"language": "nl"
-		},
-		{
-			"text": "urna. Vivamus molestie dapibus ligula. Aliquam erat",
-			"polarity": -8,
-			"nps": 5,
-			"timestamp": "1594264600",
-			"topic": "Inloggen",
-			"id": "9DB75ADC-FBB5-C280-D5B7-4E48CCC7DBCD",
-			"language": "nl"
+			"text": "Duis mi enim, condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec",
+			"polarity": -5,
+			"nps": 0,
+			"timestamp": "1554931093",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
 		},
 		{
 			"text": "cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget",
-			"polarity": -4,
+			"polarity": 0,
 			"nps": 2,
-			"timestamp": "1615435644",
+			"timestamp": "1599934120",
 			"topic": "Wijzigen",
-			"id": "0C6C3EC1-3727-E45B-653D-29BFA1B7276E",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "erat neque non quam. Pellentesque habitant morbi",
-			"polarity": 2,
-			"nps": 2,
-			"timestamp": "1602562890",
-			"topic": "Inloggen",
-			"id": "2015ADAC-41FE-23AC-FA37-BF01A3CCECB2",
-			"language": "nl"
-		},
-		{
-			"text": "risus quis diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent",
-			"polarity": 1,
-			"nps": 4,
-			"timestamp": "1622470301",
-			"topic": "Bezorgen",
-			"id": "E34D7554-82E6-6FA9-2098-C58E247CF810",
-			"language": "nl"
-		},
-		{
-			"text": "libero nec ligula consectetuer rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim",
-			"polarity": -8,
-			"nps": 4,
-			"timestamp": "1580202620",
-			"topic": "Wijzigen",
-			"id": "746F5278-FA25-6998-FD4D-BAE6DB961171",
-			"language": "nl"
-		},
-		{
-			"text": "at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus ante",
-			"polarity": -10,
-			"nps": 10,
-			"timestamp": "1578226172",
-			"topic": "Beschadigingen",
-			"id": "6C3C1403-D364-153D-21F0-CB9D48C131BF",
-			"language": "nl"
-		},
-		{
-			"text": "arcu iaculis enim, sit amet ornare",
-			"polarity": 7,
-			"nps": 7,
-			"timestamp": "1589195630",
-			"topic": "Wijzigen",
-			"id": "4612BE37-B440-E1BE-E75F-A3CE8A114753",
-			"language": "nl"
-		},
-		{
-			"text": "mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant morbi",
-			"polarity": 1,
-			"nps": 6,
-			"timestamp": "1631994924",
-			"topic": "Wijzigen",
-			"id": "97474AE1-188E-E4C7-EB1B-076D859FAFC4",
-			"language": "nl"
-		},
-		{
-			"text": "libero. Proin mi. Aliquam gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet",
-			"polarity": -7,
+			"text": "vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit",
+			"polarity": 0,
 			"nps": 1,
-			"timestamp": "1590388905",
-			"topic": "Beschadigingen",
-			"id": "8C84BFE5-BF6C-95AF-ACB0-C4725D7229EF",
-			"language": "nl"
+			"timestamp": "1549219668",
+			"topic": "Account",
+			"language": "Netherlands"
 		},
 		{
-			"text": "orci luctus et ultrices posuere cubilia Curae; Donec tincidunt.",
-			"polarity": -1,
-			"nps": 4,
-			"timestamp": "1593726702",
-			"topic": "Inloggen",
-			"id": "A739F16E-6637-6CF0-753B-D839260AE1A7",
-			"language": "nl"
-		},
-		{
-			"text": "Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras",
-			"polarity": -10,
-			"nps": 9,
-			"timestamp": "1584800513",
-			"topic": "Inloggen",
-			"id": "A6A3719E-131E-EE86-6547-3C209861FD95",
-			"language": "nl"
-		},
-		{
-			"text": "tellus justo sit amet nulla. Donec non justo. Proin",
-			"polarity": -4,
-			"nps": 6,
-			"timestamp": "1637434794",
-			"topic": "Inloggen",
-			"id": "F3C6434A-5749-6B58-E39D-B67E886B19D2",
-			"language": "nl"
-		},
-		{
-			"text": "Nam ligula elit, pretium et, rutrum non,",
-			"polarity": -5,
-			"nps": 7,
-			"timestamp": "1634289752",
-			"topic": "Wijzigen",
-			"id": "BEF26B7D-3D7F-81EA-8946-EAFF7152457A",
-			"language": "nl"
-		},
-		{
-			"text": "mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat",
-			"polarity": 1,
-			"nps": 5,
-			"timestamp": "1637038365",
-			"topic": "Bezorgen",
-			"id": "E289F867-7F17-836A-93CD-7F6288B37156",
-			"language": "nl"
-		},
-		{
-			"text": "mauris id sapien. Cras dolor dolor, tempus",
-			"polarity": -4,
-			"nps": 6,
-			"timestamp": "1630976980",
-			"topic": "Inloggen",
-			"id": "3871AC7B-7985-C9ED-471E-1C186F514125",
-			"language": "nl"
-		},
-		{
-			"text": "Praesent interdum ligula eu enim. Etiam imperdiet dictum magna. Ut tincidunt",
-			"polarity": 10,
-			"nps": 5,
-			"timestamp": "1634598541",
-			"topic": "Inloggen",
-			"id": "4E3051CF-3C3F-3A51-627E-1E420B256D1C",
-			"language": "nl"
-		},
-		{
-			"text": "metus. Vivamus euismod urna. Nullam lobortis quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed",
-			"polarity": 2,
-			"nps": 4,
-			"timestamp": "1602571793",
-			"topic": "Inloggen",
-			"id": "2AF44FF1-3684-FE1B-0BDD-9431D0296546",
-			"language": "nl"
-		},
-		{
-			"text": "nunc id enim. Curabitur massa. Vestibulum accumsan neque et nunc.",
-			"polarity": 5,
-			"nps": 8,
-			"timestamp": "1634762476",
-			"topic": "Beschadigingen",
-			"id": "676710DC-9231-F4F1-401E-914683566C00",
-			"language": "nl"
-		},
-		{
-			"text": "consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet posuere, enim nisl elementum purus, accumsan interdum libero dui nec",
+			"text": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare.",
 			"polarity": -6,
-			"nps": 10,
-			"timestamp": "1630424330",
-			"topic": "Account",
-			"id": "1DAF00B7-3FCC-EA7C-1F58-99EDD18AF0B0",
-			"language": "nl"
-		},
-		{
-			"text": "augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis",
-			"polarity": 1,
-			"nps": 7,
-			"timestamp": "1616696181",
-			"topic": "Inloggen",
-			"id": "68ED1356-1AB5-F29B-C9C6-601C5E0E33D2",
-			"language": "nl"
-		},
-		{
-			"text": "a, facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum",
-			"polarity": -7,
-			"nps": 1,
-			"timestamp": "1604452270",
-			"topic": "Bezorgen",
-			"id": "87B4B173-EC9C-FF50-9B60-21AE928B4C8D",
-			"language": "nl"
-		},
-		{
-			"text": "felis. Nulla tempor augue ac ipsum. Phasellus",
-			"polarity": 7,
-			"nps": 10,
-			"timestamp": "1637673893",
-			"topic": "Beschadigingen",
-			"id": "E8D76670-D753-57F7-A983-634730394216",
-			"language": "nl"
-		},
-		{
-			"text": "odio sagittis semper. Nam tempor diam dictum sapien. Aenean massa. Integer vitae",
-			"polarity": 6,
-			"nps": 6,
-			"timestamp": "1607814743",
-			"topic": "Inloggen",
-			"id": "04265103-E919-DDED-F1B0-6AE4B4C6907F",
-			"language": "nl"
-		},
-		{
-			"text": "eget laoreet posuere, enim nisl elementum purus, accumsan interdum libero dui",
-			"polarity": -2,
-			"nps": 5,
-			"timestamp": "1600148311",
-			"topic": "Wijzigen",
-			"id": "11B9D4A1-ED56-D155-D9D2-8DC49B2D2A29",
-			"language": "nl"
-		},
-		{
-			"text": "sem, consequat nec, mollis vitae,",
-			"polarity": -4,
-			"nps": 2,
-			"timestamp": "1597627582",
-			"topic": "Account",
-			"id": "A076642C-14EC-4E15-2D42-9437ECEDB264",
-			"language": "nl"
-		},
-		{
-			"text": "Aenean eget metus. In nec orci. Donec nibh. Quisque nonummy ipsum non arcu.",
-			"polarity": -8,
-			"nps": 8,
-			"timestamp": "1617882469",
-			"topic": "Account",
-			"id": "A0E015D7-22C8-0A06-DEA0-A40B3A719DF6",
-			"language": "nl"
-		},
-		{
-			"text": "risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien.",
-			"polarity": 1,
-			"nps": 7,
-			"timestamp": "1583814946",
-			"topic": "Inloggen",
-			"id": "78F2CBFE-2F63-5B0E-5589-0ABC4EF65102",
-			"language": "nl"
-		},
-		{
-			"text": "Aenean gravida nunc sed pede. Cum sociis natoque penatibus et magnis dis parturient montes,",
-			"polarity": -5,
 			"nps": 4,
-			"timestamp": "1624963111",
-			"topic": "Inloggen",
-			"id": "181A7364-FBD3-F7F6-49C0-22D4DF08B4B9",
-			"language": "nl"
-		},
-		{
-			"text": "magna a neque. Nullam ut nisi a odio",
-			"polarity": -7,
-			"nps": 10,
-			"timestamp": "1616255566",
-			"topic": "Inloggen",
-			"id": "ECA1B6B9-8BA5-00EE-2B55-43D941A93598",
-			"language": "nl"
-		},
-		{
-			"text": "Aenean sed pede nec ante blandit",
-			"polarity": 1,
-			"nps": 1,
-			"timestamp": "1579856995",
-			"topic": "Account",
-			"id": "6E058FBA-A5B7-6664-DF1B-C889A6392FBD",
-			"language": "nl"
-		},
-		{
-			"text": "dui. Fusce diam nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer sem",
-			"polarity": -5,
-			"nps": 6,
-			"timestamp": "1630181430",
+			"timestamp": "1579255263",
 			"topic": "Wijzigen",
-			"id": "00E61064-3B17-602E-4593-50592CA2FFEC",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tincidunt. Donec vitae erat vel",
+			"text": "elementum sem, vitae aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis",
 			"polarity": -7,
-			"nps": 1,
-			"timestamp": "1582503648",
-			"topic": "Account",
-			"id": "77120908-1EE4-4154-E20D-60602AE67B8B",
-			"language": "nl"
-		},
-		{
-			"text": "Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem",
-			"polarity": 5,
-			"nps": 8,
-			"timestamp": "1611932236",
-			"topic": "Bezorgen",
-			"id": "7351AB00-292B-1B1C-1843-378DA7F1DFCB",
-			"language": "nl"
-		},
-		{
-			"text": "nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis,",
-			"polarity": -10,
-			"nps": 7,
-			"timestamp": "1631281659",
-			"topic": "Inloggen",
-			"id": "60B2C4AD-9977-81FC-F261-BEA9D1AEAF21",
-			"language": "nl"
-		},
-		{
-			"text": "malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut",
-			"polarity": -3,
-			"nps": 2,
-			"timestamp": "1599449423",
+			"nps": 3,
+			"timestamp": "1570878456",
 			"topic": "Beschadigingen",
-			"id": "D5CF714E-DE65-48DF-B5D7-38F2FFA1A761",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat.",
-			"polarity": -1,
-			"nps": 10,
-			"timestamp": "1605057889",
+			"text": "magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis",
+			"polarity": -6,
+			"nps": 5,
+			"timestamp": "1592233889",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor.",
+			"polarity": -7,
+			"nps": 4,
+			"timestamp": "1598639597",
 			"topic": "Wijzigen",
-			"id": "212EF6AD-B13E-4D3E-1223-80DF116F5334",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "erat. Sed nunc est, mollis non, cursus non, egestas a, dui. Cras pellentesque. Sed dictum. Proin eget",
+			"text": "et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque",
+			"polarity": -5,
+			"nps": 3,
+			"timestamp": "1602274823",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut nisi a odio semper cursus.",
+			"polarity": -2,
+			"nps": 4,
+			"timestamp": "1606059731",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "lobortis risus. In mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean",
+			"polarity": -9,
+			"nps": 0,
+			"timestamp": "1549936086",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "fermentum risus, at fringilla purus mauris a nunc. In at pede. Cras vulputate velit eu sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis eget",
+			"polarity": -1,
+			"nps": 2,
+			"timestamp": "1559934462",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes,",
+			"polarity": -4,
+			"nps": 4,
+			"timestamp": "1563714761",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum",
+			"polarity": -2,
+			"nps": 0,
+			"timestamp": "1579585761",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin",
+			"polarity": -9,
+			"nps": 2,
+			"timestamp": "1549960568",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet",
+			"polarity": -2,
+			"nps": 0,
+			"timestamp": "1563042207",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "elit elit fermentum risus, at fringilla purus mauris a nunc. In at pede.",
+			"polarity": -7,
+			"nps": 4,
+			"timestamp": "1581883156",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "porttitor eros nec tellus. Nunc lectus pede, ultrices a, auctor non, feugiat nec, diam. Duis mi enim, condimentum eget, volutpat",
+			"polarity": -10,
+			"nps": 1,
+			"timestamp": "1608093928",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "vitae risus. Duis a mi fringilla mi lacinia mattis. Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare,",
+			"polarity": -9,
+			"nps": 0,
+			"timestamp": "1595872806",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae",
+			"polarity": -6,
+			"nps": 3,
+			"timestamp": "1605721127",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus ante dictum mi, ac mattis",
+			"polarity": -3,
+			"nps": 3,
+			"timestamp": "1606722049",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "pretium et, rutrum non, hendrerit id, ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna. Ut",
+			"polarity": -4,
+			"nps": 3,
+			"timestamp": "1602480388",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "elementum sem, vitae aliquam eros turpis non enim. Mauris quis",
+			"polarity": -2,
+			"nps": 2,
+			"timestamp": "1571167868",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas",
 			"polarity": -1,
 			"nps": 5,
-			"timestamp": "1616497120",
+			"timestamp": "1570444890",
 			"topic": "Beschadigingen",
-			"id": "36E6A99B-8C31-2ED6-D330-77F6E759B1FC",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "lectus pede et risus. Quisque libero lacus,",
-			"polarity": 5,
-			"nps": 9,
-			"timestamp": "1590584210",
-			"topic": "Account",
-			"id": "AE0ED25F-C88E-F9D1-C6AA-7211EA935B9F",
-			"language": "nl"
-		},
-		{
-			"text": "a felis ullamcorper viverra. Maecenas",
-			"polarity": 10,
-			"nps": 1,
-			"timestamp": "1607641974",
-			"topic": "Bezorgen",
-			"id": "1C1794EF-F8D8-0012-FE88-627609C7879D",
-			"language": "nl"
-		},
-		{
-			"text": "augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus",
-			"polarity": 3,
-			"nps": 8,
-			"timestamp": "1599874314",
-			"topic": "Account",
-			"id": "42B9631F-168A-90C0-14D6-F8A242D1CC79",
-			"language": "nl"
-		},
-		{
-			"text": "justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc",
-			"polarity": 8,
-			"nps": 1,
-			"timestamp": "1575726598",
-			"topic": "Beschadigingen",
-			"id": "70C36D42-A880-9F32-0BA2-FC3072120557",
-			"language": "nl"
-		},
-		{
-			"text": "montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque",
-			"polarity": 10,
-			"nps": 8,
-			"timestamp": "1614961427",
-			"topic": "Beschadigingen",
-			"id": "4F349262-EC1E-43AD-07D6-37ECDBCC35DF",
-			"language": "nl"
-		},
-		{
-			"text": "mi lacinia mattis. Integer eu lacus. Quisque imperdiet, erat",
-			"polarity": -9,
-			"nps": 1,
-			"timestamp": "1611454557",
+			"text": "justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id",
+			"polarity": -2,
+			"nps": 0,
+			"timestamp": "1578568415",
 			"topic": "Wijzigen",
-			"id": "9B8ACE30-4D4E-6FF7-B7E7-696D74C18AC9",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "urna. Ut tincidunt vehicula risus. Nulla eget",
+			"text": "non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus",
+			"polarity": -10,
+			"nps": 0,
+			"timestamp": "1589253079",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu eros. Nam consequat dolor vitae dolor. Donec fringilla. Donec feugiat metus sit",
+			"polarity": -2,
+			"nps": 1,
+			"timestamp": "1560492291",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper",
 			"polarity": 0,
 			"nps": 3,
-			"timestamp": "1617946276",
-			"topic": "Beschadigingen",
-			"id": "C5C6DC89-D919-23F0-3961-61BE312C6DD7",
-			"language": "nl"
+			"timestamp": "1571797981",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
 		},
 		{
-			"text": "urna, nec luctus felis purus ac",
-			"polarity": -4,
-			"nps": 7,
-			"timestamp": "1596776758",
-			"topic": "Account",
-			"id": "073BBB87-B09F-2439-ACAF-85675447E458",
-			"language": "nl"
-		},
-		{
-			"text": "ut odio vel est tempor bibendum. Donec felis orci, adipiscing non,",
+			"text": "ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat",
 			"polarity": -4,
 			"nps": 1,
-			"timestamp": "1583308039",
-			"topic": "Beschadigingen",
-			"id": "2F2C6045-20B2-1100-2C3D-401DD595BEF9",
-			"language": "nl"
+			"timestamp": "1576366285",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
 		},
 		{
-			"text": "nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante",
-			"polarity": 7,
-			"nps": 2,
-			"timestamp": "1575602769",
-			"topic": "Account",
-			"id": "1DE6238D-A7B8-09ED-F2CE-7BABEE0D4479",
-			"language": "nl"
-		},
-		{
-			"text": "fermentum risus, at fringilla purus mauris a nunc.",
+			"text": "convallis, ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh",
 			"polarity": -3,
-			"nps": 7,
-			"timestamp": "1618238769",
-			"topic": "Inloggen",
-			"id": "81817372-E232-3CF3-847F-4B8043419AD0",
-			"language": "nl"
-		},
-		{
-			"text": "Quisque libero lacus, varius et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit",
-			"polarity": -6,
-			"nps": 6,
-			"timestamp": "1616689356",
-			"topic": "Wijzigen",
-			"id": "8E59D5AC-5A07-FB9D-0D50-4087EDFBCA41",
-			"language": "nl"
-		},
-		{
-			"text": "bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare",
-			"polarity": 5,
 			"nps": 2,
-			"timestamp": "1611353350",
-			"topic": "Beschadigingen",
-			"id": "21505B96-29DA-01B4-BE42-A8BC1DEC9EFA",
-			"language": "nl"
+			"timestamp": "1558218552",
+			"topic": "Account",
+			"language": "Netherlands"
 		},
 		{
-			"text": "enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut",
+			"text": "dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque varius.",
+			"polarity": -6,
+			"nps": 4,
+			"timestamp": "1597144957",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus",
+			"polarity": -9,
+			"nps": 5,
+			"timestamp": "1548213701",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ut, pharetra sed, hendrerit a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut mi. Duis",
+			"polarity": -3,
+			"nps": 4,
+			"timestamp": "1582643648",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum non, hendrerit",
+			"polarity": 0,
+			"nps": 4,
+			"timestamp": "1579391403",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras",
+			"polarity": -1,
+			"nps": 1,
+			"timestamp": "1601373471",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla",
 			"polarity": -7,
 			"nps": 1,
-			"timestamp": "1612597382",
-			"topic": "Bezorgen",
-			"id": "2BF6A0F1-3CD2-2768-82D1-F585441E3D6E",
-			"language": "nl"
-		},
-		{
-			"text": "vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh",
-			"polarity": -3,
-			"nps": 8,
-			"timestamp": "1582760899",
-			"topic": "Wijzigen",
-			"id": "9DE6A3A6-EBA8-D9BA-19D6-5D66D730A1DF",
-			"language": "nl"
-		},
-		{
-			"text": "tempor erat neque non quam. Pellentesque habitant",
-			"polarity": 1,
-			"nps": 1,
-			"timestamp": "1623786875",
-			"topic": "Wijzigen",
-			"id": "DC30F8E3-BE96-3248-38D3-C188D5145D6B",
-			"language": "nl"
-		},
-		{
-			"text": "dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum",
-			"polarity": -2,
-			"nps": 6,
-			"timestamp": "1634932260",
-			"topic": "Inloggen",
-			"id": "A92DBC2E-7432-DE12-495D-5B3EE3ED6C31",
-			"language": "nl"
-		},
-		{
-			"text": "Vivamus molestie dapibus ligula. Aliquam erat",
-			"polarity": 4,
-			"nps": 3,
-			"timestamp": "1625919679",
-			"topic": "Account",
-			"id": "C84BAD41-1A54-973A-4B4E-286D4D9BF2CA",
-			"language": "nl"
-		},
-		{
-			"text": "arcu. Morbi sit amet massa. Quisque",
-			"polarity": -10,
-			"nps": 9,
-			"timestamp": "1594226049",
+			"timestamp": "1598750370",
 			"topic": "Beschadigingen",
-			"id": "25CF95DF-453F-5DA4-DEF0-22D388C5E084",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis",
-			"polarity": -5,
-			"nps": 7,
-			"timestamp": "1581987386",
-			"topic": "Inloggen",
-			"id": "5F8862D7-8427-D44C-1F51-6F14C03DE815",
-			"language": "nl"
-		},
-		{
-			"text": "Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna",
-			"polarity": 9,
-			"nps": 7,
-			"timestamp": "1596901242",
-			"topic": "Inloggen",
-			"id": "DF393E46-7F1B-C969-01BC-DE3D352D60E9",
-			"language": "nl"
-		},
-		{
-			"text": "felis eget varius ultrices, mauris",
-			"polarity": -4,
-			"nps": 1,
-			"timestamp": "1596315394",
-			"topic": "Beschadigingen",
-			"id": "846D05FA-F175-CB8E-5FBE-E84864CE907E",
-			"language": "nl"
-		},
-		{
-			"text": "tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus",
-			"polarity": -9,
-			"nps": 9,
-			"timestamp": "1584851993",
-			"topic": "Bezorgen",
-			"id": "3EF886CF-A469-A883-0EB8-123A57B937CA",
-			"language": "nl"
-		},
-		{
-			"text": "penatibus et magnis dis parturient montes, nascetur",
-			"polarity": -5,
-			"nps": 2,
-			"timestamp": "1575278489",
-			"topic": "Beschadigingen",
-			"id": "A6C7F3A7-7570-EB1A-AC0D-065868A6EC1B",
-			"language": "nl"
-		},
-		{
-			"text": "ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce aliquam, enim",
-			"polarity": 1,
-			"nps": 1,
-			"timestamp": "1610147674",
-			"topic": "Account",
-			"id": "DF5142A3-5B28-1F6E-6FF7-20222A4D633B",
-			"language": "nl"
-		},
-		{
-			"text": "mauris ut mi. Duis risus odio, auctor",
-			"polarity": -9,
-			"nps": 1,
-			"timestamp": "1622021646",
-			"topic": "Bezorgen",
-			"id": "032A7937-49AC-62CE-42FF-EC70154076F7",
-			"language": "nl"
-		},
-		{
-			"text": "metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem,",
-			"polarity": 6,
-			"nps": 9,
-			"timestamp": "1577543754",
-			"topic": "Account",
-			"id": "B2C583C7-B77A-1A27-3E43-340D2C12A324",
-			"language": "nl"
-		},
-		{
-			"text": "taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus.",
-			"polarity": -10,
-			"nps": 7,
-			"timestamp": "1630706870",
-			"topic": "Account",
-			"id": "1D89BD99-6E38-373C-ED35-DCE1660D7CC1",
-			"language": "nl"
-		},
-		{
-			"text": "ut nisi a odio semper cursus.",
-			"polarity": 7,
-			"nps": 1,
-			"timestamp": "1610615284",
-			"topic": "Inloggen",
-			"id": "355B402D-173D-9451-CFE9-130573926459",
-			"language": "nl"
-		},
-		{
-			"text": "in consectetuer ipsum nunc id enim. Curabitur massa. Vestibulum accumsan neque et",
-			"polarity": 9,
-			"nps": 5,
-			"timestamp": "1608740839",
-			"topic": "Bezorgen",
-			"id": "68CFE080-5674-053F-AF50-9D4E86FA94B8",
-			"language": "nl"
-		},
-		{
-			"text": "pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at,",
-			"polarity": 4,
-			"nps": 9,
-			"timestamp": "1613884368",
-			"topic": "Beschadigingen",
-			"id": "A2A13AEC-7E20-C422-BA8C-F84178F28F67",
-			"language": "nl"
-		},
-		{
-			"text": "vehicula aliquet libero. Integer in magna. Phasellus",
-			"polarity": -7,
-			"nps": 9,
-			"timestamp": "1624383283",
-			"topic": "Beschadigingen",
-			"id": "F707F8AA-41A1-C892-C9D1-ED459262A010",
-			"language": "nl"
-		},
-		{
-			"text": "sit amet, faucibus ut, nulla. Cras eu tellus eu",
-			"polarity": -1,
-			"nps": 2,
-			"timestamp": "1627046076",
-			"topic": "Bezorgen",
-			"id": "5C36CEF4-18BF-87F2-34C1-D15A046CDDAB",
-			"language": "nl"
-		},
-		{
-			"text": "cubilia Curae; Donec tincidunt. Donec",
+			"text": "sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus,",
 			"polarity": -6,
-			"nps": 6,
-			"timestamp": "1629961733",
-			"topic": "Bezorgen",
-			"id": "2635F8CD-3EB9-F919-058F-D8894F0F2E96",
-			"language": "nl"
-		},
-		{
-			"text": "ac mattis ornare, lectus ante dictum mi, ac mattis",
-			"polarity": -4,
-			"nps": 5,
-			"timestamp": "1600117715",
-			"topic": "Beschadigingen",
-			"id": "8F4EC381-CC36-2AA1-DCE2-694BE182E9DD",
-			"language": "nl"
-		},
-		{
-			"text": "metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus",
-			"polarity": -1,
-			"nps": 8,
-			"timestamp": "1582232807",
-			"topic": "Beschadigingen",
-			"id": "DCF3598E-756E-8383-1C05-7D18E0858418",
-			"language": "nl"
-		},
-		{
-			"text": "turpis egestas. Fusce aliquet magna a neque. Nullam ut nisi a odio semper",
-			"polarity": -3,
-			"nps": 1,
-			"timestamp": "1574981240",
-			"topic": "Bezorgen",
-			"id": "38BC378E-FE7B-7233-3BED-E8AF4A237743",
-			"language": "nl"
-		},
-		{
-			"text": "Vivamus sit amet risus. Donec egestas. Aliquam nec enim. Nunc ut",
-			"polarity": -5,
-			"nps": 3,
-			"timestamp": "1577357677",
+			"nps": 0,
+			"timestamp": "1582437472",
 			"topic": "Wijzigen",
-			"id": "C3BC0BF0-C7E7-E2A1-4977-1A3B6B98FC89",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis",
-			"polarity": 5,
-			"nps": 9,
-			"timestamp": "1601068111",
-			"topic": "Account",
-			"id": "FACB606E-88D0-B90B-ABB4-07B69DCC49E2",
-			"language": "nl"
+			"text": "enim, sit amet ornare lectus justo eu arcu. Morbi sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus pede, ultrices a, auctor",
+			"polarity": -7,
+			"nps": 4,
+			"timestamp": "1569687047",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
 		},
 		{
-			"text": "a, facilisis non, bibendum sed,",
+			"text": "Aenean gravida nunc sed pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel arcu eu odio tristique pharetra.",
+			"polarity": -8,
+			"nps": 1,
+			"timestamp": "1561639694",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus",
+			"polarity": -10,
+			"nps": 1,
+			"timestamp": "1593461495",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in",
+			"polarity": -3,
+			"nps": 5,
+			"timestamp": "1548250362",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing.",
 			"polarity": -9,
 			"nps": 4,
-			"timestamp": "1582729472",
-			"topic": "Wijzigen",
-			"id": "808D3A0A-9695-1A15-A541-54140C541B4C",
-			"language": "nl"
+			"timestamp": "1548147916",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
 		},
 		{
-			"text": "id, ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet",
-			"polarity": 10,
-			"nps": 5,
-			"timestamp": "1588162659",
+			"text": "luctus lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus",
+			"polarity": -1,
+			"nps": 2,
+			"timestamp": "1553119066",
 			"topic": "Inloggen",
-			"id": "48827B7D-CBFB-B478-E0BF-E604533348E5",
-			"language": "nl"
+			"language": "Netherlands"
 		},
 		{
-			"text": "Quisque ac libero nec ligula consectetuer rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies",
+			"text": "Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna",
+			"polarity": -9,
+			"nps": 0,
+			"timestamp": "1573947349",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut",
+			"polarity": -4,
+			"nps": 4,
+			"timestamp": "1571946438",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "euismod mauris eu elit. Nulla facilisi. Sed neque. Sed eget lacus.",
+			"polarity": -2,
+			"nps": 2,
+			"timestamp": "1572182928",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam",
+			"polarity": -9,
+			"nps": 5,
+			"timestamp": "1600576898",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique",
+			"polarity": -9,
+			"nps": 4,
+			"timestamp": "1607825494",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "lectus ante dictum mi, ac mattis velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo",
+			"polarity": -2,
+			"nps": 5,
+			"timestamp": "1550065209",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare,",
+			"polarity": 0,
+			"nps": 2,
+			"timestamp": "1589519233",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum",
+			"polarity": 0,
+			"nps": 2,
+			"timestamp": "1555309567",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "lectus sit amet luctus vulputate, nisi sem semper erat, in consectetuer ipsum nunc id enim.",
+			"polarity": -3,
+			"nps": 4,
+			"timestamp": "1566449266",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci",
+			"polarity": -4,
+			"nps": 4,
+			"timestamp": "1582804014",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate,",
+			"polarity": -9,
+			"nps": 4,
+			"timestamp": "1555933081",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id",
+			"polarity": -5,
+			"nps": 2,
+			"timestamp": "1552707968",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis",
+			"polarity": -2,
+			"nps": 4,
+			"timestamp": "1594842493",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien.",
+			"polarity": -10,
+			"nps": 2,
+			"timestamp": "1558818273",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc",
+			"polarity": -7,
+			"nps": 0,
+			"timestamp": "1576305725",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "magnis dis parturient montes, nascetur ridiculus mus. Proin vel arcu eu odio tristique",
+			"polarity": -10,
+			"nps": 3,
+			"timestamp": "1599413860",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue turpis.",
+			"polarity": -9,
+			"nps": 1,
+			"timestamp": "1581677992",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam",
+			"polarity": -10,
+			"nps": 5,
+			"timestamp": "1550864083",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu",
+			"polarity": -2,
+			"nps": 5,
+			"timestamp": "1589001973",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus.",
+			"polarity": 0,
+			"nps": 5,
+			"timestamp": "1557433690",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent",
+			"polarity": -5,
+			"nps": 5,
+			"timestamp": "1556256494",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "dolor. Fusce feugiat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet posuere, enim nisl elementum purus, accumsan",
+			"polarity": -3,
+			"nps": 3,
+			"timestamp": "1608900623",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus.",
+			"polarity": -3,
+			"nps": 1,
+			"timestamp": "1580167526",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Donec non justo. Proin non massa non ante bibendum ullamcorper. Duis cursus, diam at pretium aliquet, metus urna convallis erat, eget tincidunt dui augue",
+			"polarity": -1,
+			"nps": 1,
+			"timestamp": "1609247266",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "dictum. Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit amet lorem semper auctor. Mauris vel turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy ut,",
+			"polarity": -2,
+			"nps": 2,
+			"timestamp": "1584781298",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui,",
+			"polarity": -9,
+			"nps": 0,
+			"timestamp": "1566010909",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum",
 			"polarity": -7,
 			"nps": 1,
-			"timestamp": "1608905502",
+			"timestamp": "1556844666",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Aliquam rutrum lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis quam a",
+			"polarity": -1,
+			"nps": 5,
+			"timestamp": "1566114622",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed",
+			"polarity": -6,
+			"nps": 0,
+			"timestamp": "1546456810",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "cursus et, eros. Proin ultrices. Duis volutpat nunc sit amet metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies",
+			"polarity": -2,
+			"nps": 5,
+			"timestamp": "1560803365",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Quisque libero lacus, varius et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit amet luctus vulputate, nisi sem semper erat,",
+			"polarity": -8,
+			"nps": 0,
+			"timestamp": "1551748864",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "sem elit, pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet",
+			"polarity": -8,
+			"nps": 0,
+			"timestamp": "1583394454",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "tristique neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem",
+			"polarity": 0,
+			"nps": 9,
+			"timestamp": "1554997636",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In",
+			"polarity": 8,
+			"nps": 8,
+			"timestamp": "1598939297",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero",
+			"polarity": 2,
+			"nps": 6,
+			"timestamp": "1576072932",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ultrices posuere cubilia Curae; Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui.",
+			"polarity": 7,
+			"nps": 7,
+			"timestamp": "1586601781",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum non, hendrerit id, ante. Nunc mauris",
+			"polarity": 0,
+			"nps": 8,
+			"timestamp": "1566215989",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque.",
+			"polarity": 0,
+			"nps": 5,
+			"timestamp": "1580362781",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi",
+			"polarity": 6,
+			"nps": 5,
+			"timestamp": "1584593281",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris",
+			"polarity": 7,
+			"nps": 7,
+			"timestamp": "1570599689",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis.",
+			"polarity": 4,
+			"nps": 7,
+			"timestamp": "1574751035",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "at fringilla purus mauris a nunc. In at pede. Cras",
+			"polarity": 7,
+			"nps": 6,
+			"timestamp": "1573790588",
 			"topic": "Wijzigen",
-			"id": "CE80E609-19A6-F0EE-D9D5-6A2B1A5DD192",
-			"language": "nl"
+			"language": "Netherlands"
+		},
+		{
+			"text": "lacinia mattis. Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit elit fermentum risus, at fringilla purus mauris a nunc. In at pede. Cras vulputate velit",
+			"polarity": 1,
+			"nps": 8,
+			"timestamp": "1547121122",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "pede. Suspendisse dui. Fusce diam nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer sem elit, pharetra ut, pharetra sed, hendrerit a, arcu.",
+			"polarity": 0,
+			"nps": 10,
+			"timestamp": "1587767644",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie. Sed id risus",
+			"polarity": 8,
+			"nps": 5,
+			"timestamp": "1553122363",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+			"polarity": 2,
+			"nps": 10,
+			"timestamp": "1587244955",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum",
+			"polarity": 5,
+			"nps": 8,
+			"timestamp": "1597819444",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis",
+			"polarity": 3,
+			"nps": 10,
+			"timestamp": "1555858188",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum",
+			"polarity": 7,
+			"nps": 10,
+			"timestamp": "1595932447",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "mi enim, condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin adipiscing",
+			"polarity": 2,
+			"nps": 7,
+			"timestamp": "1572599060",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat",
+			"polarity": 7,
+			"nps": 5,
+			"timestamp": "1575703506",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque",
+			"polarity": 8,
+			"nps": 5,
+			"timestamp": "1582018275",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum.",
+			"polarity": 9,
+			"nps": 10,
+			"timestamp": "1565328868",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer",
+			"polarity": 4,
+			"nps": 7,
+			"timestamp": "1579154561",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit",
+			"polarity": 9,
+			"nps": 10,
+			"timestamp": "1608891463",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "mattis velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum.",
+			"polarity": 0,
+			"nps": 9,
+			"timestamp": "1601271093",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
+			"polarity": 5,
+			"nps": 6,
+			"timestamp": "1588843217",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel",
+			"polarity": 5,
+			"nps": 8,
+			"timestamp": "1569310205",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac",
+			"polarity": 2,
+			"nps": 5,
+			"timestamp": "1609566913",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "pharetra, felis eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis,",
+			"polarity": 7,
+			"nps": 9,
+			"timestamp": "1549078658",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "enim. Suspendisse aliquet, sem ut cursus luctus, ipsum leo elementum sem, vitae aliquam eros turpis",
+			"polarity": 4,
+			"nps": 6,
+			"timestamp": "1565164385",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla",
+			"polarity": 10,
+			"nps": 6,
+			"timestamp": "1589073950",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+			"polarity": 5,
+			"nps": 7,
+			"timestamp": "1582847760",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Integer id magna et ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna.",
+			"polarity": 8,
+			"nps": 6,
+			"timestamp": "1606612473",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer urna. Vivamus molestie dapibus ligula.",
+			"polarity": 10,
+			"nps": 6,
+			"timestamp": "1584115586",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "tincidunt orci quis lectus. Nullam suscipit, est ac facilisis facilisis, magna tellus faucibus leo,",
+			"polarity": 6,
+			"nps": 7,
+			"timestamp": "1566912039",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non",
+			"polarity": 1,
+			"nps": 10,
+			"timestamp": "1606569354",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "consectetuer rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem",
+			"polarity": 8,
+			"nps": 6,
+			"timestamp": "1581662925",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ornare lectus justo eu arcu. Morbi sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus pede, ultrices a,",
+			"polarity": 4,
+			"nps": 9,
+			"timestamp": "1597408369",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "a mi fringilla mi lacinia mattis. Integer eu lacus. Quisque imperdiet,",
+			"polarity": 8,
+			"nps": 10,
+			"timestamp": "1546506355",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum",
+			"polarity": 2,
+			"nps": 7,
+			"timestamp": "1605074944",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "nisl arcu iaculis enim, sit amet ornare lectus justo eu arcu. Morbi sit amet massa. Quisque",
+			"polarity": 2,
+			"nps": 9,
+			"timestamp": "1586236831",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing.",
+			"polarity": 0,
+			"nps": 10,
+			"timestamp": "1568156201",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Aliquam adipiscing lobortis risus. In mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod mauris",
+			"polarity": 3,
+			"nps": 9,
+			"timestamp": "1553430789",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum.",
+			"polarity": 7,
+			"nps": 6,
+			"timestamp": "1573663541",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu",
+			"polarity": 6,
+			"nps": 9,
+			"timestamp": "1575976610",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue turpis. In condimentum. Donec",
+			"polarity": 10,
+			"nps": 8,
+			"timestamp": "1583700356",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum",
+			"polarity": 7,
+			"nps": 6,
+			"timestamp": "1580047731",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue",
+			"polarity": 5,
+			"nps": 8,
+			"timestamp": "1573929286",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus",
+			"polarity": 10,
+			"nps": 5,
+			"timestamp": "1584890334",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem, auctor quis, tristique",
+			"polarity": 1,
+			"nps": 5,
+			"timestamp": "1551671171",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu",
+			"polarity": 0,
+			"nps": 6,
+			"timestamp": "1585324046",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "nec, imperdiet nec, leo. Morbi neque tellus, imperdiet non, vestibulum nec, euismod in, dolor. Fusce feugiat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+			"polarity": 7,
+			"nps": 10,
+			"timestamp": "1575142314",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "accumsan convallis, ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit",
+			"polarity": 5,
+			"nps": 6,
+			"timestamp": "1605766534",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "magna a neque. Nullam ut nisi a odio semper cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam",
+			"polarity": 2,
+			"nps": 7,
+			"timestamp": "1572233056",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie. Sed id",
+			"polarity": 6,
+			"nps": 7,
+			"timestamp": "1546833305",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit amet metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim",
+			"polarity": 3,
+			"nps": 8,
+			"timestamp": "1586482130",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "odio, auctor vitae, aliquet nec, imperdiet nec, leo. Morbi neque tellus, imperdiet non, vestibulum nec, euismod in, dolor. Fusce feugiat. Lorem",
+			"polarity": 6,
+			"nps": 6,
+			"timestamp": "1604672987",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "eget mollis lectus pede et risus. Quisque libero lacus, varius et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus",
+			"polarity": 3,
+			"nps": 7,
+			"timestamp": "1581018486",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut",
+			"polarity": 8,
+			"nps": 7,
+			"timestamp": "1577507326",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue turpis. In condimentum. Donec at arcu. Vestibulum ante",
+			"polarity": 6,
+			"nps": 9,
+			"timestamp": "1570953620",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Donec non justo. Proin non massa non ante bibendum ullamcorper. Duis cursus, diam",
+			"polarity": 0,
+			"nps": 10,
+			"timestamp": "1594344176",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante,",
+			"polarity": 8,
+			"nps": 6,
+			"timestamp": "1572208083",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est,",
+			"polarity": 2,
+			"nps": 8,
+			"timestamp": "1586867893",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "arcu et pede. Nunc sed orci lobortis augue scelerisque mollis.",
+			"polarity": 2,
+			"nps": 9,
+			"timestamp": "1579436489",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin",
+			"polarity": 7,
+			"nps": 8,
+			"timestamp": "1602335541",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam",
+			"polarity": 8,
+			"nps": 5,
+			"timestamp": "1569285236",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel",
+			"polarity": 8,
+			"nps": 8,
+			"timestamp": "1596318521",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris magna. Duis",
+			"polarity": 2,
+			"nps": 6,
+			"timestamp": "1579788081",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "semper cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean",
+			"polarity": 9,
+			"nps": 10,
+			"timestamp": "1582961477",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "neque et nunc. Quisque ornare tortor at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc",
+			"polarity": 7,
+			"nps": 9,
+			"timestamp": "1563679709",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Integer urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam",
+			"polarity": 7,
+			"nps": 9,
+			"timestamp": "1550094676",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum.",
+			"polarity": 10,
+			"nps": 6,
+			"timestamp": "1596772296",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat",
+			"polarity": 0,
+			"nps": 9,
+			"timestamp": "1565904823",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui. Fusce",
+			"polarity": 4,
+			"nps": 9,
+			"timestamp": "1560774343",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris",
+			"polarity": 5,
+			"nps": 6,
+			"timestamp": "1571811073",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis.",
+			"polarity": 3,
+			"nps": 8,
+			"timestamp": "1587965565",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero",
+			"polarity": 9,
+			"nps": 9,
+			"timestamp": "1591194542",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque",
+			"polarity": 6,
+			"nps": 5,
+			"timestamp": "1608863386",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In",
+			"polarity": 6,
+			"nps": 9,
+			"timestamp": "1576838324",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem",
+			"polarity": 5,
+			"nps": 6,
+			"timestamp": "1609039757",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis",
+			"polarity": 0,
+			"nps": 10,
+			"timestamp": "1587696332",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis quis,",
+			"polarity": 9,
+			"nps": 7,
+			"timestamp": "1547628152",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla",
+			"polarity": 6,
+			"nps": 8,
+			"timestamp": "1603277926",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis. Duis sit amet diam eu",
+			"polarity": 2,
+			"nps": 5,
+			"timestamp": "1563684426",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In",
+			"polarity": 8,
+			"nps": 6,
+			"timestamp": "1560818430",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus.",
+			"polarity": 8,
+			"nps": 6,
+			"timestamp": "1586023029",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in",
+			"polarity": 1,
+			"nps": 6,
+			"timestamp": "1601395515",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin orci sem eget",
+			"polarity": 8,
+			"nps": 10,
+			"timestamp": "1592095224",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin",
+			"polarity": 2,
+			"nps": 8,
+			"timestamp": "1591988650",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Suspendisse aliquet, sem ut cursus luctus, ipsum leo elementum sem, vitae aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at",
+			"polarity": 3,
+			"nps": 8,
+			"timestamp": "1579977112",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est",
+			"polarity": 9,
+			"nps": 8,
+			"timestamp": "1567338503",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id",
+			"polarity": 9,
+			"nps": 6,
+			"timestamp": "1603921296",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "amet ornare lectus justo eu arcu. Morbi sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus pede, ultrices a, auctor non, feugiat nec, diam. Duis mi enim, condimentum",
+			"polarity": 10,
+			"nps": 9,
+			"timestamp": "1566963349",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non",
+			"polarity": 6,
+			"nps": 5,
+			"timestamp": "1582601737",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "porttitor interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi",
+			"polarity": 7,
+			"nps": 10,
+			"timestamp": "1575801441",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non,",
+			"polarity": 7,
+			"nps": 6,
+			"timestamp": "1558335923",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Curabitur ut odio vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus.",
+			"polarity": 6,
+			"nps": 7,
+			"timestamp": "1559199530",
+			"topic": "Inloggen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie",
+			"polarity": 5,
+			"nps": 9,
+			"timestamp": "1591822718",
+			"topic": "Bezorgen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum",
+			"polarity": 0,
+			"nps": 9,
+			"timestamp": "1591197532",
+			"topic": "Wijzigen",
+			"language": "Netherlands"
+		},
+		{
+			"text": "ornare. Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum",
+			"polarity": 9,
+			"nps": 9,
+			"timestamp": "1601460482",
+			"topic": "Account",
+			"language": "Netherlands"
+		},
+		{
+			"text": "Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue,",
+			"polarity": 4,
+			"nps": 5,
+			"timestamp": "1588016321",
+			"topic": "Beschadigingen",
+			"language": "Netherlands"
 		}
 	]
 }

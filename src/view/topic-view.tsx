@@ -1,10 +1,12 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useHistory, useRouteMatch } from 'react-router-dom';
 import Maintopic from 'src/core/models/maintopic';
 import MessageNode from 'src/core/models/messagenode';
 import dataJson from 'src/fakeData/dataGenerator.json';
+import GraphChart from 'src/ui/components/organisms/graph-chart';
 import Topic from 'src/ui/components/organisms/topic';
 import { useMainTopics } from 'src/ui/hooks/use-maintopics';
+import Page from 'src/view/page';
 
 
 function addToCluster(
@@ -28,9 +30,9 @@ let filteredTopics: Maintopic[] = [];
 
 const TopicView: React.FunctionComponent = () => {
     const history = useHistory();
+    const graph = useRouteMatch('/graph');
     const { mainTopics } = useMainTopics();
     const [view, setView] = React.useState(mainTopics);
-
 
     React.useEffect(() => {
         setView(mainTopics)
@@ -47,9 +49,10 @@ const TopicView: React.FunctionComponent = () => {
         const query = new URLSearchParams(history.location.search);
 
         const customDaysQuery = query.getAll('day');
-        console.log(customDaysQuery[0])
+
         let customDays: number[] = [];
         if (customDaysQuery.length === 0) {
+            setView(mainTopics);
             return;
         } else customDays = customDaysQuery.map((timestamp) => Number(timestamp));
         function filterDate(node: MessageNode) {
@@ -62,18 +65,23 @@ const TopicView: React.FunctionComponent = () => {
         filtered.forEach((item: MessageNode) => addToCluster(item));
 
         setView(filteredTopics)
-    }, [history.location]);
+    }, [history.location.search, mainTopics]);
 
     if (!view) return null;
-    // if (graph) return (
-    //     <GraphChart  />
-    // )
+    if (graph) return (
+        <Page>
+            {view.map((topic) => (
+                <GraphChart key={topic.description} topic={topic}/>
+            ))}
+        </Page>
+        
+    )
     return (
-        <>
+        <Page>
             {view.map((topic) => (
                 <Topic key={topic.description} topic={topic}/>
             ))}
-        </>
+        </Page>
     )
 }
 

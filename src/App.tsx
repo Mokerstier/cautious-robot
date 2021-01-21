@@ -7,22 +7,17 @@ import Aside from 'src/ui/components/aside';
 const App = () => {
   return (
     <div className={$.app}>
-      <header className={$.header}>
-        <h1>Data Driven World</h1> 
-      </header>
       <Aside />
-      <main>
-          <Switch>
-              {routes.map(({ path, component: C }) => (
-                  <Route
-                      key={path}
-                      exact
-                      path={path}
-                      component={C}
-                  />
-              ))}
-          </Switch>
-      </main>
+        <Switch>
+            {routes.map(({ path, component: C }) => (
+                <Route
+                    key={path}
+                    exact
+                    path={path}
+                    component={C}
+                />
+            ))}
+        </Switch>
     </div>
   );
 }
