@@ -10,6 +10,7 @@ interface Props{
 const GraphChart: React.FunctionComponent<Props> = ({ topic }) => {
     const rootSVG = React.useRef<SVGSVGElement>(null);
     const axisBottom = React.useRef<SVGGElement>(null);
+    const npsKPI = React.useRef<SVGLineElement>(null);
     const axisLeft = React.useRef<SVGGElement>(null);
     const nodeGroup = React.useRef<SVGGElement>(null);
     const NPS = React.useRef<SVGPathElement>(null);
@@ -34,10 +35,12 @@ const GraphChart: React.FunctionComponent<Props> = ({ topic }) => {
             axisLeft: axisLeft.current,
             nodeGroup: nodeGroup.current,
             NPS: NPS.current,
+            NPSKPI: npsKPI.current,
         };
         console.log(topic.children)
         renderLine(topic.children, SVGElements, width, height)
-    }, [topic, group, rootSVG]);
+    }, [topic.children, group, rootSVG]);
+    
     if (!topic.children.length) return null;
     return (
         <div >
@@ -61,6 +64,7 @@ const GraphChart: React.FunctionComponent<Props> = ({ topic }) => {
                     <g ref={axisLeft} />
                     <g ref={axisBottom} />
                     <g ref={nodeGroup} />
+                    <line ref={npsKPI} />
                     <path ref={NPS} />
                 </svg>
             </div>

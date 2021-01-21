@@ -9,21 +9,29 @@ function placePolCluster(number) {
 const nodeColor = ['#29e999', '#e9d629', '#e94629'];
 const xCenter = [0, 175, 350];
 
-function renderGraph(group, data) {
+function renderGraph(ttip, group, data) {
     
     if (!data.length) {
         return;
     }
-
-    const root = d3.select(group.current)
+    
+    const groupSVG = d3.select(group.current)
         .selectAll('circle')
         .data(data)
         .join('circle')
         .attr('r', 10)
         .attr('fill', (d) => nodeColor[placePolCluster(d.polarity)]);
-        
+    
+    const tooltip = d3.select(ttip.current)
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .text("I'm a circle!");
+
+    groupSVG.on("mouseover", (e, d) => tooltip.style("visibility", "visible").text(d.text))
+        .on("mousemove", (e) => tooltip.style("top", e.pageY - 20 +"px").style("left",e.pageX+ 10+"px"))
+        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
     function ticked() {
-        root.attr('cx', (d) => d.x).attr('cy', (d) => d.y);
+        groupSVG.attr('cx', (d) => d.x).attr('cy', (d) => d.y);
     }
 
     const simulation = d3.forceSimulation(data)

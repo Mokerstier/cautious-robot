@@ -9,6 +9,8 @@ interface Props{
 
 const Topic: React.FunctionComponent<Props> = ({ topic }) => {
     const group = React.useRef() as React.RefObject<SVGGElement>;
+    const root = React.useRef() as React.RefObject<SVGSVGElement>;
+    const tooltip = React.useRef<HTMLDivElement>(null);
     const width = 450;
     const height = 350;
     const translate = `translate(50, ${height / 2})`;
@@ -23,10 +25,9 @@ const Topic: React.FunctionComponent<Props> = ({ topic }) => {
         const averageNps = Math.round(promotorsPerc - criticastersPerc);
 
     React.useEffect(() => {
-        renderGraph(group, topic.children)
-    }, [topic, group]);
-
-    return (
+        renderGraph(tooltip, group, topic.children)
+    }, [topic.children, group]);
+    if(!topic.children.length) return (
         <div className={$.topic}>
             <header className={$.topicheader}>
                 <h2>{topic.id}</h2>
@@ -44,7 +45,32 @@ const Topic: React.FunctionComponent<Props> = ({ topic }) => {
                 </div>   
             </header>
             <div className={$.body}>
-                <svg width={width} height= {height}>
+                <h3>No Comments Found!</h3>
+                <h3>Try changing the filter settings</h3>
+            </div>
+            
+        </div>
+    );
+    return (
+        <div className={$.topic}>
+            <div ref={tooltip}/>
+            <header className={$.topicheader}>
+                <h2>{topic.id}</h2>
+                <div className={$.subheader}>
+                    <div className={$.npscontainer}>
+                        <span>{topic.children.length}</span>
+                        <span>Comments</span>
+                    </div>
+                    <div className={$.npscontainer}>
+                        <span>
+                            {averageNps}
+                        </span>
+                        <span>NPS</span>
+                    </div>
+                </div>   
+            </header>
+            <div className={$.body}>               
+                <svg ref={root} width={width} height= {height}>
                     <g transform={translate} ref={group}></g>
                 </svg>
             </div>

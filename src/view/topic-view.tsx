@@ -6,6 +6,7 @@ import dataJson from 'src/fakeData/dataGenerator.json';
 import GraphChart from 'src/ui/components/organisms/graph-chart';
 import Topic from 'src/ui/components/organisms/topic';
 import { useMainTopics } from 'src/ui/hooks/use-maintopics';
+import Page from 'src/view/page';
 
 
 function addToCluster(
@@ -51,6 +52,7 @@ const TopicView: React.FunctionComponent = () => {
         console.log(customDaysQuery[0])
         let customDays: number[] = [];
         if (customDaysQuery.length === 0) {
+            setView(mainTopics);
             return;
         } else customDays = customDaysQuery.map((timestamp) => Number(timestamp));
         function filterDate(node: MessageNode) {
@@ -63,23 +65,23 @@ const TopicView: React.FunctionComponent = () => {
         filtered.forEach((item: MessageNode) => addToCluster(item));
 
         setView(filteredTopics)
-    }, [history.location]);
+    }, [history.location.search]);
 
     if (!view) return null;
     if (graph) return (
-        <>
+        <Page>
             {view.map((topic) => (
                 <GraphChart key={topic.description} topic={topic}/>
             ))}
-        </>
+        </Page>
         
     )
     return (
-        <>
+        <Page>
             {view.map((topic) => (
                 <Topic key={topic.description} topic={topic}/>
             ))}
-        </>
+        </Page>
     )
 }
 
