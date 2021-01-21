@@ -12,7 +12,7 @@ interface ParamTypes {
 const Header: React.FC = () => {
     const history = useHistory();
     const {
-        mainIndex, maintopicId, subtopicId,
+        maintopicId, subtopicId,
     } = useParams<ParamTypes>();
     const firstLink = maintopicId;
     const firstText = firstLink && firstLink.split('_').join(', ');

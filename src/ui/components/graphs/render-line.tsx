@@ -5,8 +5,6 @@ function renderLine(data, SVGElements, w, h) {
         axisBottom, axisLeft, nodeGroup, NPS, NPSKPI,
     } = SVGElements;
 
-    console.log(data)
-
     // Data we use to fill the GRAPH
     const allData = data;
     // Making sure we present the data in chronological order

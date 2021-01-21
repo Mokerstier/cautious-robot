@@ -37,7 +37,6 @@ const GraphChart: React.FunctionComponent<Props> = ({ topic }) => {
             NPS: NPS.current,
             NPSKPI: npsKPI.current,
         };
-        console.log(topic.children)
         renderLine(topic.children, SVGElements, width, height)
     }, [topic.children, group, rootSVG]);
     

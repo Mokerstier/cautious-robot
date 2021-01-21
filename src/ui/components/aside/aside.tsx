@@ -8,7 +8,6 @@ import PeriodicSelector from 'src/ui/components/organisms/periodic-selector';
 import { QuarterDates, useDates } from 'src/ui/hooks/use-dates';
 import { baseDate } from 'src/utils/dates/getDayDates';
 import $ from './aside.module.scss';
-import Page from 'src/view/page';
 
 const Aside: React.FunctionComponent = () => {
     const history = useHistory();
@@ -47,8 +46,13 @@ const Aside: React.FunctionComponent = () => {
                 <h2>Change view</h2>
                 <ul>
                     <li>
+                        <Link to="/">
+                            Topic View
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="/graph">
-                            Show graphs
+                            KPI View
                         </Link>
                     </li>
                     <li>

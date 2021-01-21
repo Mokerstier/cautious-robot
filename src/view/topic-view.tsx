@@ -49,7 +49,7 @@ const TopicView: React.FunctionComponent = () => {
         const query = new URLSearchParams(history.location.search);
 
         const customDaysQuery = query.getAll('day');
-        console.log(customDaysQuery[0])
+
         let customDays: number[] = [];
         if (customDaysQuery.length === 0) {
             setView(mainTopics);
@@ -65,7 +65,7 @@ const TopicView: React.FunctionComponent = () => {
         filtered.forEach((item: MessageNode) => addToCluster(item));
 
         setView(filteredTopics)
-    }, [history.location.search]);
+    }, [history.location.search, mainTopics]);
 
     if (!view) return null;
     if (graph) return (
